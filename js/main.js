@@ -134,6 +134,12 @@ if (contactForm) {
   });
 }
 
+// ============ HERO BACKGROUND VIDEO ============
+const heroBgVideo = document.getElementById('hero-bg-video');
+if (heroBgVideo && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  heroBgVideo.play().catch(() => {});
+}
+
 // ============ HERO CURSOR SPOTLIGHT ============
 const heroDark = document.getElementById('hero-dark');
 const heroSpotlight = document.getElementById('hero-spotlight');
