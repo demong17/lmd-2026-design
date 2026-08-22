@@ -263,7 +263,7 @@ button{ font-family:inherit; cursor:pointer; }
 .hero-video-overlay{
   position:absolute; inset:0; z-index:0;
   background:
-    radial-gradient(120% 100% at 50% 0%, rgba(23,41,61,.72) 0%, rgba(6,12,20,.9) 55%, rgba(3,7,12,.97) 100%);
+    radial-gradient(120% 100% at 50% 0%, rgba(23,41,61,.84) 0%, rgba(6,12,20,.95) 55%, rgba(3,7,12,.99) 100%);
 }
 @media (max-width: 700px){
   .hero-dark.hero-video{ min-height:auto; padding:130px 0 80px; }
