@@ -3,7 +3,10 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { SearchOverlay } from "@/components/search/SearchOverlay";
+import { SiteImage } from "@/components/media/SiteImage";
 import { NAV_LINKS, SERVICES, SITE_PHONE, SITE_PHONE_TEL } from "@/lib/site";
+import { isBlogPostPath } from "@/lib/blog-paths";
 
 const canHover = () =>
   typeof window !== "undefined" && window.matchMedia("(hover: hover) and (pointer: fine)").matches;
@@ -11,7 +14,7 @@ const canHover = () =>
 function isActivePath(pathname: string, href: string) {
   if (href === "/services") return pathname.startsWith("/services");
   if (href === "/case-studies") return pathname === "/case-studies" || pathname.startsWith("/case-studies/");
-  if (href === "/blogs") return pathname === "/blogs" || pathname.startsWith("/blog/");
+  if (href === "/blog") return pathname === "/blog" || pathname === "/blogs" || isBlogPostPath(pathname);
   return pathname === href;
 }
 
@@ -21,6 +24,7 @@ export function Header() {
   const navRef = useRef<HTMLElement>(null);
   const pillRef = useRef<HTMLSpanElement>(null);
   const [navOpen, setNavOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const servicesRef = useRef<HTMLDivElement>(null);
   const closeTimer = useRef<number | null>(null);
@@ -107,13 +111,34 @@ export function Header() {
     setServicesOpen(false);
   };
 
+  const closeSearch = useCallback(() => setSearchOpen(false), []);
+
+  const openSearch = () => {
+    closeNav();
+    setSearchOpen(true);
+  };
+
+  useEffect(() => {
+    setSearchOpen(false);
+  }, [pathname]);
+
   const servicesCurrent = isActivePath(pathname, "/services");
 
   return (
     <header className="site-header" id="top" ref={headerRef}>
       <div className="container header-inner">
         <Link href="/" className="logo" onClick={closeNav}>
-          <img className="logo-img" src="/assets/images/mainLMD-stacked-navy-gold.png" alt="Live Media Digital" />
+          <SiteImage
+            className="logo-img"
+            src="/assets/images/logo-header.webp?v=4"
+            alt="Live Media Digital, Miami digital marketing agency"
+            width={210}
+            height={112}
+            priority
+            fetchPriority="high"
+            unoptimized
+            style={{ width: "auto" }}
+          />
         </Link>
 
         <nav
@@ -157,21 +182,26 @@ export function Header() {
               </svg>
             </button>
             <div className="nav-dropdown nav-mega" id="services-dropdown">
-              <div className="nav-mega-grid">
-                {SERVICES.map((service) => (
-                  <Link key={service.slug} href={`/services/${service.slug}`} className="nav-mega-item" onClick={closeNav}>
-                    <span className="nav-mega-text">
-                      <strong>{service.title}</strong>
-                      <span>{service.blurb}</span>
-                    </span>
-                  </Link>
-                ))}
+              <div className="nav-mega-col">
+                <div className="nav-mega-grid">
+                  {SERVICES.map((service) => (
+                    <Link key={service.slug} href={`/services/${service.slug}`} className="nav-mega-item" onClick={closeNav}>
+                      <span className="nav-mega-text">
+                        <strong>{service.title}</strong>
+                        <span>{service.blurb}</span>
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+                <Link href="/services" className="nav-mega-all" onClick={closeNav}>
+                  View all services →
+                </Link>
               </div>
               <div className="nav-mega-promo">
                 <p className="nav-mega-promo-label">NOT SURE WHERE TO START?</p>
                 <h4>Get a free strategy session.</h4>
                 <p>We&apos;ll audit your site, ads, and SEO, then tell you exactly what to fix first.</p>
-                <Link href="/#consultation" className="btn btn-primary btn-sm" onClick={closeNav}>
+                <Link href="/consultation" className="btn btn-primary btn-sm" onClick={closeNav}>
                   Get Free Consultation
                 </Link>
               </div>
@@ -199,6 +229,19 @@ export function Header() {
         </nav>
 
         <div className="header-actions">
+          <button
+            type="button"
+            className="header-search-btn"
+            aria-label="Search the site"
+            aria-expanded={searchOpen}
+            aria-haspopup="dialog"
+            onClick={openSearch}
+          >
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
+              <circle cx="11" cy="11" r="6.25" />
+              <path d="M16 16l4.2 4.2" strokeLinecap="round" />
+            </svg>
+          </button>
           <a href={`tel:${SITE_PHONE_TEL}`} className="btn btn-dark btn-sm header-cta">
             <span className="cta-full">Call {SITE_PHONE}</span>
             <span className="cta-short">Call Now</span>
@@ -215,6 +258,7 @@ export function Header() {
           </button>
         </div>
       </div>
+      <SearchOverlay open={searchOpen} onClose={closeSearch} />
     </header>
   );
 }

@@ -13,7 +13,7 @@
         "label": "Home"
       },
       {
-        "href": "/#services",
+        "href": "/services",
         "label": "Services"
       },
       {
@@ -52,22 +52,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           }
         ]
       },
@@ -81,19 +81,19 @@
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           },
           {
             "href": "/industries/medical-wellness",
             "tag": "INDUSTRY",
             "title": "Medical & Wellness Centers",
-            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase\u2026"
+            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase…"
           },
           {
             "href": "/industries/law-firms",
             "tag": "INDUSTRY",
             "title": "Law Firms",
-            "copy": "Legal marketing is one of the most competitive and highest cost-per-click categories online. It has\u2026"
+            "copy": "Legal marketing is one of the most competitive and highest cost-per-click categories online. It has…"
           }
         ]
       }
@@ -115,7 +115,7 @@
         "label": "Home"
       },
       {
-        "href": "/#services",
+        "href": "/services",
         "label": "Services"
       },
       {
@@ -157,19 +157,19 @@
             "href": "/services/software-development",
             "tag": "SERVICE",
             "title": "Software Development",
-            "copy": "Beyond a marketing website, we build the custom tools, portals, and integrations businesses need to\u2026"
+            "copy": "Beyond a marketing website, we build the custom tools, portals, and integrations businesses need to…"
           },
           {
             "href": "/services/digital-infrastructure-consulting",
             "tag": "SERVICE",
             "title": "Digital Infrastructure Consulting",
-            "copy": "We assess and rebuild the technical foundation behind your website, software, and data, so growth\u2026"
+            "copy": "We assess and rebuild the technical foundation behind your website, software, and data, so growth…"
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           }
         ]
       },
@@ -183,19 +183,19 @@
             "href": "/industries/home-services",
             "tag": "INDUSTRY",
             "title": "Home Services & Contractors",
-            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We\u2026"
+            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We…"
           },
           {
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           },
           {
             "href": "/industries/franchises",
             "tag": "INDUSTRY",
             "title": "Franchises & Multi-Location Brands",
-            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local\u2026"
+            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local…"
           }
         ]
       }
@@ -205,7 +205,7 @@
   },
   {
     "group": "services",
-    "slug": "content-marketing",
+    "slug": "miami-content-marketing",
     "title": "Content Marketing for South Florida Businesses | Live Media Digital",
     "description": "SEO-driven content marketing for South Florida businesses. Blogs, landing pages, and guides written to rank on Google and sell once they get there.",
     "h1": "Content Marketing for South Florida Businesses",
@@ -217,7 +217,7 @@
         "label": "Home"
       },
       {
-        "href": "/#services",
+        "href": "/services",
         "label": "Services"
       },
       {
@@ -256,22 +256,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
             "href": "/services/aeo-geo",
             "tag": "SERVICE",
             "title": "AEO & GEO",
-            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your\u2026"
+            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your…"
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           }
         ]
       },
@@ -285,19 +285,19 @@
             "href": "/industries/veterinary",
             "tag": "INDUSTRY",
             "title": "Veterinary Clinics",
-            "copy": "Pet owners research a vet the way they'd research a pediatrician. Your marketing needs to earn that\u2026"
+            "copy": "Pet owners research a vet the way they'd research a pediatrician. Your marketing needs to earn that…"
           },
           {
             "href": "/industries/medical-wellness",
             "tag": "INDUSTRY",
             "title": "Medical & Wellness Centers",
-            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase\u2026"
+            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase…"
           },
           {
             "href": "/industries/accounting-tax",
             "tag": "INDUSTRY",
             "title": "Accounting & Tax Services",
-            "copy": "Tax season creates a short, intense demand spike. The rest of the year is about building steady\u2026"
+            "copy": "Tax season creates a short, intense demand spike. The rest of the year is about building steady…"
           }
         ]
       }
@@ -319,7 +319,7 @@
         "label": "Home"
       },
       {
-        "href": "/#services",
+        "href": "/services",
         "label": "Services"
       },
       {
@@ -361,19 +361,19 @@
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           },
           {
             "href": "/services/software-development",
             "tag": "SERVICE",
             "title": "Software Development",
-            "copy": "Beyond a marketing website, we build the custom tools, portals, and integrations businesses need to\u2026"
+            "copy": "Beyond a marketing website, we build the custom tools, portals, and integrations businesses need to…"
           },
           {
             "href": "/services/business-automation",
             "tag": "SERVICE",
             "title": "Business Automation",
-            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM\u2026"
+            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM…"
           }
         ]
       },
@@ -387,19 +387,19 @@
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           },
           {
             "href": "/industries/medical-wellness",
             "tag": "INDUSTRY",
             "title": "Medical & Wellness Centers",
-            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase\u2026"
+            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase…"
           },
           {
             "href": "/industries/franchises",
             "tag": "INDUSTRY",
             "title": "Franchises & Multi-Location Brands",
-            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local\u2026"
+            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local…"
           }
         ]
       }
@@ -421,7 +421,7 @@
         "label": "Home"
       },
       {
-        "href": "/#services",
+        "href": "/services",
         "label": "Services"
       },
       {
@@ -463,19 +463,19 @@
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           }
         ]
       },
@@ -489,19 +489,19 @@
             "href": "/industries/retail-ecommerce",
             "tag": "INDUSTRY",
             "title": "Retail & E-commerce",
-            "copy": "Retail and e-commerce marketing has to work across two worlds at once: the physical store and the\u2026"
+            "copy": "Retail and e-commerce marketing has to work across two worlds at once: the physical store and the…"
           },
           {
             "href": "/industries/beauty-med-spas",
             "tag": "INDUSTRY",
             "title": "Beauty & Med Spas",
-            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more\u2026"
+            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more…"
           },
           {
             "href": "/industries/franchises",
             "tag": "INDUSTRY",
             "title": "Franchises & Multi-Location Brands",
-            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local\u2026"
+            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local…"
           }
         ]
       }
@@ -511,7 +511,7 @@
   },
   {
     "group": "services",
-    "slug": "email-marketing",
+    "slug": "email-marketing-agency-in-miami",
     "title": "Email Marketing for South Florida Businesses | Live Media Digital",
     "description": "Email marketing management for South Florida businesses. Targeted campaigns that turn warm leads and past customers into repeat revenue.",
     "h1": "Email Marketing for South Florida Businesses",
@@ -523,7 +523,7 @@
         "label": "Home"
       },
       {
-        "href": "/#services",
+        "href": "/services",
         "label": "Services"
       },
       {
@@ -562,13 +562,13 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
@@ -591,19 +591,19 @@
             "href": "/industries/dental",
             "tag": "INDUSTRY",
             "title": "Dental Practices",
-            "copy": "New patient growth for a dental practice comes down to two things: showing up in local search, and\u2026"
+            "copy": "New patient growth for a dental practice comes down to two things: showing up in local search, and…"
           },
           {
             "href": "/industries/fitness-gyms",
             "tag": "INDUSTRY",
             "title": "Fitness & Gyms",
-            "copy": "Gym and fitness studio marketing is a membership retention business as much as it's a lead\u2026"
+            "copy": "Gym and fitness studio marketing is a membership retention business as much as it's a lead…"
           },
           {
             "href": "/industries/automotive-car-wash",
             "tag": "INDUSTRY",
             "title": "Automotive & Car Wash",
-            "copy": "Whether it's a repair shop or a car wash membership, this industry lives on repeat visits and local\u2026"
+            "copy": "Whether it's a repair shop or a car wash membership, this industry lives on repeat visits and local…"
           }
         ]
       }
@@ -613,7 +613,7 @@
   },
   {
     "group": "services",
-    "slug": "sem",
+    "slug": "search-engine-marketing",
     "title": "Search Engine Marketing (PPC) for South Florida Businesses | Live Media Digital",
     "description": "Paid search management for South Florida businesses. Google & Bing Ads campaigns built for qualified leads, not just clicks.",
     "h1": "Search Engine Marketing (PPC) for South Florida Businesses",
@@ -625,7 +625,7 @@
         "label": "Home"
       },
       {
-        "href": "/#services",
+        "href": "/services",
         "label": "Services"
       },
       {
@@ -664,22 +664,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           },
           {
             "href": "/services/aeo-geo",
             "tag": "SERVICE",
             "title": "AEO & GEO",
-            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your\u2026"
+            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your…"
           }
         ]
       },
@@ -693,19 +693,19 @@
             "href": "/industries/restaurants-hospitality",
             "tag": "INDUSTRY",
             "title": "Restaurants & Hospitality",
-            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when\u2026"
+            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when…"
           },
           {
             "href": "/industries/real-estate",
             "tag": "INDUSTRY",
             "title": "Real Estate",
-            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and\u2026"
+            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and…"
           },
           {
             "href": "/industries/roofing",
             "tag": "INDUSTRY",
             "title": "Roofing",
-            "copy": "Roofing demand spikes hard around storm season, and the companies that rank and respond fastest win\u2026"
+            "copy": "Roofing demand spikes hard around storm season, and the companies that rank and respond fastest win…"
           }
         ]
       }
@@ -715,7 +715,7 @@
   },
   {
     "group": "services",
-    "slug": "seo",
+    "slug": "search-engine-optimization",
     "title": "Search Engine Optimization for South Florida Businesses | Live Media Digital",
     "description": "SEO services for South Florida businesses. Technical, on-page, and local SEO built to rank you where customers are already searching.",
     "h1": "Search Engine Optimization for South Florida Businesses",
@@ -727,7 +727,7 @@
         "label": "Home"
       },
       {
-        "href": "/#services",
+        "href": "/services",
         "label": "Services"
       },
       {
@@ -766,19 +766,19 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
             "href": "/services/aeo-geo",
             "tag": "SERVICE",
             "title": "AEO & GEO",
-            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your\u2026"
+            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
@@ -795,19 +795,19 @@
             "href": "/industries/home-services",
             "tag": "INDUSTRY",
             "title": "Home Services & Contractors",
-            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We\u2026"
+            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We…"
           },
           {
             "href": "/industries/dental",
             "tag": "INDUSTRY",
             "title": "Dental Practices",
-            "copy": "New patient growth for a dental practice comes down to two things: showing up in local search, and\u2026"
+            "copy": "New patient growth for a dental practice comes down to two things: showing up in local search, and…"
           },
           {
             "href": "/industries/hvac-plumbing",
             "tag": "INDUSTRY",
             "title": "HVAC & Plumbing",
-            "copy": "Between emergency calls and seasonal maintenance rushes, HVAC and plumbing marketing has to work\u2026"
+            "copy": "Between emergency calls and seasonal maintenance rushes, HVAC and plumbing marketing has to work…"
           }
         ]
       }
@@ -817,7 +817,7 @@
   },
   {
     "group": "services",
-    "slug": "social-media-marketing",
+    "slug": "social-media-paid-marketing",
     "title": "Social Media Marketing for South Florida Businesses | Live Media Digital",
     "description": "Paid social media advertising for South Florida businesses. Facebook, Instagram, and beyond, managed alongside your internal team to turn followers into customers.",
     "h1": "Social Media Marketing for South Florida Businesses",
@@ -829,7 +829,7 @@
         "label": "Home"
       },
       {
-        "href": "/#services",
+        "href": "/services",
         "label": "Services"
       },
       {
@@ -868,22 +868,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           },
           {
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           }
         ]
       },
@@ -897,19 +897,19 @@
             "href": "/industries/restaurants-hospitality",
             "tag": "INDUSTRY",
             "title": "Restaurants & Hospitality",
-            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when\u2026"
+            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when…"
           },
           {
             "href": "/industries/beauty-med-spas",
             "tag": "INDUSTRY",
             "title": "Beauty & Med Spas",
-            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more\u2026"
+            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more…"
           },
           {
             "href": "/industries/fitness-gyms",
             "tag": "INDUSTRY",
             "title": "Fitness & Gyms",
-            "copy": "Gym and fitness studio marketing is a membership retention business as much as it's a lead\u2026"
+            "copy": "Gym and fitness studio marketing is a membership retention business as much as it's a lead…"
           }
         ]
       }
@@ -931,7 +931,7 @@
         "label": "Home"
       },
       {
-        "href": "/#services",
+        "href": "/services",
         "label": "Services"
       },
       {
@@ -973,13 +973,13 @@
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           },
           {
             "href": "/services/business-automation",
             "tag": "SERVICE",
             "title": "Business Automation",
-            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM\u2026"
+            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM…"
           },
           {
             "href": "/services/ecommerce-development",
@@ -999,19 +999,19 @@
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           },
           {
             "href": "/industries/franchises",
             "tag": "INDUSTRY",
             "title": "Franchises & Multi-Location Brands",
-            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local\u2026"
+            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local…"
           },
           {
             "href": "/industries/manufacturing",
             "tag": "INDUSTRY",
             "title": "Manufacturing & Industrial",
-            "copy": "Industrial and manufacturing marketing plays a longer game: fewer leads, higher value, and a much\u2026"
+            "copy": "Industrial and manufacturing marketing plays a longer game: fewer leads, higher value, and a much…"
           }
         ]
       }
@@ -1033,7 +1033,7 @@
         "label": "Home"
       },
       {
-        "href": "/#services",
+        "href": "/services",
         "label": "Services"
       },
       {
@@ -1078,16 +1078,16 @@
             "copy": "Online stores built to convert, from product pages to checkout, so browsers become buyers."
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           }
         ]
       },
@@ -1101,19 +1101,19 @@
             "href": "/industries/hvac-plumbing",
             "tag": "INDUSTRY",
             "title": "HVAC & Plumbing",
-            "copy": "Between emergency calls and seasonal maintenance rushes, HVAC and plumbing marketing has to work\u2026"
+            "copy": "Between emergency calls and seasonal maintenance rushes, HVAC and plumbing marketing has to work…"
           },
           {
             "href": "/industries/dental",
             "tag": "INDUSTRY",
             "title": "Dental Practices",
-            "copy": "New patient growth for a dental practice comes down to two things: showing up in local search, and\u2026"
+            "copy": "New patient growth for a dental practice comes down to two things: showing up in local search, and…"
           },
           {
             "href": "/industries/automotive-car-wash",
             "tag": "INDUSTRY",
             "title": "Automotive & Car Wash",
-            "copy": "Whether it's a repair shop or a car wash membership, this industry lives on repeat visits and local\u2026"
+            "copy": "Whether it's a repair shop or a car wash membership, this industry lives on repeat visits and local…"
           }
         ]
       }
@@ -1135,7 +1135,7 @@
         "label": "Home"
       },
       {
-        "href": "/#services",
+        "href": "/services",
         "label": "Services"
       },
       {
@@ -1180,16 +1180,16 @@
             "copy": "Online stores built to convert, from product pages to checkout, so browsers become buyers."
           },
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           }
         ]
       },
@@ -1203,19 +1203,19 @@
             "href": "/industries/law-firms",
             "tag": "INDUSTRY",
             "title": "Law Firms",
-            "copy": "Legal marketing is one of the most competitive and highest cost-per-click categories online. It has\u2026"
+            "copy": "Legal marketing is one of the most competitive and highest cost-per-click categories online. It has…"
           },
           {
             "href": "/industries/real-estate",
             "tag": "INDUSTRY",
             "title": "Real Estate",
-            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and\u2026"
+            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and…"
           },
           {
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           }
         ]
       }
@@ -1275,22 +1275,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           }
         ]
       },
@@ -1304,19 +1304,19 @@
             "href": "/industries/law-firms",
             "tag": "INDUSTRY",
             "title": "Law Firms",
-            "copy": "Legal marketing is one of the most competitive and highest cost-per-click categories online. It has\u2026"
+            "copy": "Legal marketing is one of the most competitive and highest cost-per-click categories online. It has…"
           },
           {
             "href": "/industries/real-estate",
             "tag": "INDUSTRY",
             "title": "Real Estate",
-            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and\u2026"
+            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and…"
           },
           {
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           }
         ]
       }
@@ -1376,22 +1376,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           }
         ]
       },
@@ -1405,19 +1405,19 @@
             "href": "/industries/home-services",
             "tag": "INDUSTRY",
             "title": "Home Services & Contractors",
-            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We\u2026"
+            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We…"
           },
           {
             "href": "/industries/manufacturing",
             "tag": "INDUSTRY",
             "title": "Manufacturing & Industrial",
-            "copy": "Industrial and manufacturing marketing plays a longer game: fewer leads, higher value, and a much\u2026"
+            "copy": "Industrial and manufacturing marketing plays a longer game: fewer leads, higher value, and a much…"
           },
           {
             "href": "/industries/retail-ecommerce",
             "tag": "INDUSTRY",
             "title": "Retail & E-commerce",
-            "copy": "Retail and e-commerce marketing has to work across two worlds at once: the physical store and the\u2026"
+            "copy": "Retail and e-commerce marketing has to work across two worlds at once: the physical store and the…"
           }
         ]
       }
@@ -1477,22 +1477,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           }
         ]
       },
@@ -1506,19 +1506,19 @@
             "href": "/industries/fitness-gyms",
             "tag": "INDUSTRY",
             "title": "Fitness & Gyms",
-            "copy": "Gym and fitness studio marketing is a membership retention business as much as it's a lead\u2026"
+            "copy": "Gym and fitness studio marketing is a membership retention business as much as it's a lead…"
           },
           {
             "href": "/industries/dental",
             "tag": "INDUSTRY",
             "title": "Dental Practices",
-            "copy": "New patient growth for a dental practice comes down to two things: showing up in local search, and\u2026"
+            "copy": "New patient growth for a dental practice comes down to two things: showing up in local search, and…"
           },
           {
             "href": "/industries/restaurants-hospitality",
             "tag": "INDUSTRY",
             "title": "Restaurants & Hospitality",
-            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when\u2026"
+            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when…"
           }
         ]
       }
@@ -1578,22 +1578,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           }
         ]
       },
@@ -1607,19 +1607,19 @@
             "href": "/industries/medical-wellness",
             "tag": "INDUSTRY",
             "title": "Medical & Wellness Centers",
-            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase\u2026"
+            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase…"
           },
           {
             "href": "/industries/veterinary",
             "tag": "INDUSTRY",
             "title": "Veterinary Clinics",
-            "copy": "Pet owners research a vet the way they'd research a pediatrician. Your marketing needs to earn that\u2026"
+            "copy": "Pet owners research a vet the way they'd research a pediatrician. Your marketing needs to earn that…"
           },
           {
             "href": "/industries/beauty-med-spas",
             "tag": "INDUSTRY",
             "title": "Beauty & Med Spas",
-            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more\u2026"
+            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more…"
           }
         ]
       }
@@ -1679,22 +1679,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           }
         ]
       },
@@ -1708,19 +1708,19 @@
             "href": "/industries/beauty-med-spas",
             "tag": "INDUSTRY",
             "title": "Beauty & Med Spas",
-            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more\u2026"
+            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more…"
           },
           {
             "href": "/industries/restaurants-hospitality",
             "tag": "INDUSTRY",
             "title": "Restaurants & Hospitality",
-            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when\u2026"
+            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when…"
           },
           {
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           }
         ]
       }
@@ -1780,19 +1780,19 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
@@ -1809,19 +1809,19 @@
             "href": "/industries/restaurants-hospitality",
             "tag": "INDUSTRY",
             "title": "Restaurants & Hospitality",
-            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when\u2026"
+            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when…"
           },
           {
             "href": "/industries/retail-ecommerce",
             "tag": "INDUSTRY",
             "title": "Retail & E-commerce",
-            "copy": "Retail and e-commerce marketing has to work across two worlds at once: the physical store and the\u2026"
+            "copy": "Retail and e-commerce marketing has to work across two worlds at once: the physical store and the…"
           },
           {
             "href": "/industries/real-estate",
             "tag": "INDUSTRY",
             "title": "Real Estate",
-            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and\u2026"
+            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and…"
           }
         ]
       }
@@ -1881,13 +1881,13 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
@@ -1896,7 +1896,7 @@
             "href": "/services/aeo-geo",
             "tag": "SERVICE",
             "title": "AEO & GEO",
-            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your\u2026"
+            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your…"
           }
         ]
       },
@@ -1910,19 +1910,19 @@
             "href": "/industries/medical-wellness",
             "tag": "INDUSTRY",
             "title": "Medical & Wellness Centers",
-            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase\u2026"
+            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase…"
           },
           {
             "href": "/industries/beauty-med-spas",
             "tag": "INDUSTRY",
             "title": "Beauty & Med Spas",
-            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more\u2026"
+            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more…"
           },
           {
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           }
         ]
       }
@@ -1982,22 +1982,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
             "href": "/services/voice-agents",
             "tag": "SERVICE",
             "title": "Voice Agents",
-            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without\u2026"
+            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without…"
           }
         ]
       },
@@ -2011,19 +2011,19 @@
             "href": "/industries/hvac-plumbing",
             "tag": "INDUSTRY",
             "title": "HVAC & Plumbing",
-            "copy": "Between emergency calls and seasonal maintenance rushes, HVAC and plumbing marketing has to work\u2026"
+            "copy": "Between emergency calls and seasonal maintenance rushes, HVAC and plumbing marketing has to work…"
           },
           {
             "href": "/industries/roofing",
             "tag": "INDUSTRY",
             "title": "Roofing",
-            "copy": "Roofing demand spikes hard around storm season, and the companies that rank and respond fastest win\u2026"
+            "copy": "Roofing demand spikes hard around storm season, and the companies that rank and respond fastest win…"
           },
           {
             "href": "/industries/landscaping",
             "tag": "INDUSTRY",
             "title": "Landscaping",
-            "copy": "From weekly maintenance contracts to full landscape redesigns, your marketing needs to sell two\u2026"
+            "copy": "From weekly maintenance contracts to full landscape redesigns, your marketing needs to sell two…"
           }
         ]
       }
@@ -2083,22 +2083,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
             "href": "/services/voice-agents",
             "tag": "SERVICE",
             "title": "Voice Agents",
-            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without\u2026"
+            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           }
         ]
       },
@@ -2112,19 +2112,19 @@
             "href": "/industries/home-services",
             "tag": "INDUSTRY",
             "title": "Home Services & Contractors",
-            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We\u2026"
+            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We…"
           },
           {
             "href": "/industries/roofing",
             "tag": "INDUSTRY",
             "title": "Roofing",
-            "copy": "Roofing demand spikes hard around storm season, and the companies that rank and respond fastest win\u2026"
+            "copy": "Roofing demand spikes hard around storm season, and the companies that rank and respond fastest win…"
           },
           {
             "href": "/industries/pest-control",
             "tag": "INDUSTRY",
             "title": "Pest Control",
-            "copy": "South Florida's climate means pest control is a year-round need, not a seasonal one, if your\u2026"
+            "copy": "South Florida's climate means pest control is a year-round need, not a seasonal one, if your…"
           }
         ]
       }
@@ -2184,22 +2184,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
             "href": "/services/voice-agents",
             "tag": "SERVICE",
             "title": "Voice Agents",
-            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without\u2026"
+            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without…"
           }
         ]
       },
@@ -2213,13 +2213,13 @@
             "href": "/industries/real-estate",
             "tag": "INDUSTRY",
             "title": "Real Estate",
-            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and\u2026"
+            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and…"
           },
           {
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           }
         ]
       }
@@ -2279,22 +2279,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           }
         ]
       },
@@ -2314,13 +2314,13 @@
             "href": "/industries/pest-control",
             "tag": "INDUSTRY",
             "title": "Pest Control",
-            "copy": "South Florida's climate means pest control is a year-round need, not a seasonal one, if your\u2026"
+            "copy": "South Florida's climate means pest control is a year-round need, not a seasonal one, if your…"
           },
           {
             "href": "/industries/real-estate",
             "tag": "INDUSTRY",
             "title": "Real Estate",
-            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and\u2026"
+            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and…"
           }
         ]
       }
@@ -2380,22 +2380,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
             "href": "/services/aeo-geo",
             "tag": "SERVICE",
             "title": "AEO & GEO",
-            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your\u2026"
+            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your…"
           },
           {
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           }
         ]
       },
@@ -2409,19 +2409,19 @@
             "href": "/industries/accounting-tax",
             "tag": "INDUSTRY",
             "title": "Accounting & Tax Services",
-            "copy": "Tax season creates a short, intense demand spike. The rest of the year is about building steady\u2026"
+            "copy": "Tax season creates a short, intense demand spike. The rest of the year is about building steady…"
           },
           {
             "href": "/industries/real-estate",
             "tag": "INDUSTRY",
             "title": "Real Estate",
-            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and\u2026"
+            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and…"
           },
           {
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           }
         ]
       }
@@ -2481,13 +2481,13 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
@@ -2496,7 +2496,7 @@
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           }
         ]
       },
@@ -2510,19 +2510,19 @@
             "href": "/industries/waste-container-rental",
             "tag": "INDUSTRY",
             "title": "Waste & Container Rental",
-            "copy": "From contractor accounts to one-time homeowner rentals, container rental marketing has to speak to\u2026"
+            "copy": "From contractor accounts to one-time homeowner rentals, container rental marketing has to speak to…"
           },
           {
             "href": "/industries/marine-yacht",
             "tag": "INDUSTRY",
             "title": "Marine & Yacht Services",
-            "copy": "Marine and yacht services sell to a smaller, higher-value audience where trust and reputation carry\u2026"
+            "copy": "Marine and yacht services sell to a smaller, higher-value audience where trust and reputation carry…"
           },
           {
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           }
         ]
       }
@@ -2585,19 +2585,19 @@
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           },
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           }
         ]
       },
@@ -2611,19 +2611,19 @@
             "href": "/industries/real-estate",
             "tag": "INDUSTRY",
             "title": "Real Estate",
-            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and\u2026"
+            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and…"
           },
           {
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           },
           {
             "href": "/industries/manufacturing",
             "tag": "INDUSTRY",
             "title": "Manufacturing & Industrial",
-            "copy": "Industrial and manufacturing marketing plays a longer game: fewer leads, higher value, and a much\u2026"
+            "copy": "Industrial and manufacturing marketing plays a longer game: fewer leads, higher value, and a much…"
           }
         ]
       }
@@ -2683,19 +2683,19 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
             "href": "/services/aeo-geo",
             "tag": "SERVICE",
             "title": "AEO & GEO",
-            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your\u2026"
+            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
@@ -2712,19 +2712,19 @@
             "href": "/industries/dental",
             "tag": "INDUSTRY",
             "title": "Dental Practices",
-            "copy": "New patient growth for a dental practice comes down to two things: showing up in local search, and\u2026"
+            "copy": "New patient growth for a dental practice comes down to two things: showing up in local search, and…"
           },
           {
             "href": "/industries/veterinary",
             "tag": "INDUSTRY",
             "title": "Veterinary Clinics",
-            "copy": "Pet owners research a vet the way they'd research a pediatrician. Your marketing needs to earn that\u2026"
+            "copy": "Pet owners research a vet the way they'd research a pediatrician. Your marketing needs to earn that…"
           },
           {
             "href": "/industries/health-cannabis",
             "tag": "INDUSTRY",
             "title": "Health & Cannabis Dispensaries",
-            "copy": "Cannabis and health-adjacent marketing has to work within real advertising restrictions, which\u2026"
+            "copy": "Cannabis and health-adjacent marketing has to work within real advertising restrictions, which…"
           }
         ]
       }
@@ -2784,22 +2784,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
             "href": "/services/voice-agents",
             "tag": "SERVICE",
             "title": "Voice Agents",
-            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without\u2026"
+            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without…"
           }
         ]
       },
@@ -2813,19 +2813,19 @@
             "href": "/industries/waste-container-rental",
             "tag": "INDUSTRY",
             "title": "Waste & Container Rental",
-            "copy": "From contractor accounts to one-time homeowner rentals, container rental marketing has to speak to\u2026"
+            "copy": "From contractor accounts to one-time homeowner rentals, container rental marketing has to speak to…"
           },
           {
             "href": "/industries/real-estate",
             "tag": "INDUSTRY",
             "title": "Real Estate",
-            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and\u2026"
+            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and…"
           },
           {
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           }
         ]
       }
@@ -2885,22 +2885,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           }
         ]
       },
@@ -2914,19 +2914,19 @@
             "href": "/industries/home-services",
             "tag": "INDUSTRY",
             "title": "Home Services & Contractors",
-            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We\u2026"
+            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We…"
           },
           {
             "href": "/industries/landscaping",
             "tag": "INDUSTRY",
             "title": "Landscaping",
-            "copy": "From weekly maintenance contracts to full landscape redesigns, your marketing needs to sell two\u2026"
+            "copy": "From weekly maintenance contracts to full landscape redesigns, your marketing needs to sell two…"
           },
           {
             "href": "/industries/real-estate",
             "tag": "INDUSTRY",
             "title": "Real Estate",
-            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and\u2026"
+            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and…"
           }
         ]
       }
@@ -2986,22 +2986,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           }
         ]
       },
@@ -3015,13 +3015,13 @@
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           },
           {
             "href": "/industries/fitness-gyms",
             "tag": "INDUSTRY",
             "title": "Fitness & Gyms",
-            "copy": "Gym and fitness studio marketing is a membership retention business as much as it's a lead\u2026"
+            "copy": "Gym and fitness studio marketing is a membership retention business as much as it's a lead…"
           }
         ]
       }
@@ -3081,22 +3081,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           }
         ]
       },
@@ -3110,19 +3110,19 @@
             "href": "/industries/hvac-plumbing",
             "tag": "INDUSTRY",
             "title": "HVAC & Plumbing",
-            "copy": "Between emergency calls and seasonal maintenance rushes, HVAC and plumbing marketing has to work\u2026"
+            "copy": "Between emergency calls and seasonal maintenance rushes, HVAC and plumbing marketing has to work…"
           },
           {
             "href": "/industries/landscaping",
             "tag": "INDUSTRY",
             "title": "Landscaping",
-            "copy": "From weekly maintenance contracts to full landscape redesigns, your marketing needs to sell two\u2026"
+            "copy": "From weekly maintenance contracts to full landscape redesigns, your marketing needs to sell two…"
           },
           {
             "href": "/industries/home-services",
             "tag": "INDUSTRY",
             "title": "Home Services & Contractors",
-            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We\u2026"
+            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We…"
           }
         ]
       }
@@ -3182,7 +3182,7 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
@@ -3191,13 +3191,13 @@
             "href": "/services/aeo-geo",
             "tag": "SERVICE",
             "title": "AEO & GEO",
-            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your\u2026"
+            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your…"
           },
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           }
         ]
       },
@@ -3211,19 +3211,19 @@
             "href": "/industries/law-firms",
             "tag": "INDUSTRY",
             "title": "Law Firms",
-            "copy": "Legal marketing is one of the most competitive and highest cost-per-click categories online. It has\u2026"
+            "copy": "Legal marketing is one of the most competitive and highest cost-per-click categories online. It has…"
           },
           {
             "href": "/industries/accounting-tax",
             "tag": "INDUSTRY",
             "title": "Accounting & Tax Services",
-            "copy": "Tax season creates a short, intense demand spike. The rest of the year is about building steady\u2026"
+            "copy": "Tax season creates a short, intense demand spike. The rest of the year is about building steady…"
           },
           {
             "href": "/industries/marine-yacht",
             "tag": "INDUSTRY",
             "title": "Marine & Yacht Services",
-            "copy": "Marine and yacht services sell to a smaller, higher-value audience where trust and reputation carry\u2026"
+            "copy": "Marine and yacht services sell to a smaller, higher-value audience where trust and reputation carry…"
           }
         ]
       }
@@ -3283,22 +3283,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
             "href": "/services/voice-agents",
             "tag": "SERVICE",
             "title": "Voice Agents",
-            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without\u2026"
+            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without…"
           }
         ]
       },
@@ -3312,19 +3312,19 @@
             "href": "/industries/law-firms",
             "tag": "INDUSTRY",
             "title": "Law Firms",
-            "copy": "Legal marketing is one of the most competitive and highest cost-per-click categories online. It has\u2026"
+            "copy": "Legal marketing is one of the most competitive and highest cost-per-click categories online. It has…"
           },
           {
             "href": "/industries/moving-storage",
             "tag": "INDUSTRY",
             "title": "Moving & Storage",
-            "copy": "Moving customers research and book on a tight timeline. Your marketing has to be visible at exactly\u2026"
+            "copy": "Moving customers research and book on a tight timeline. Your marketing has to be visible at exactly…"
           },
           {
             "href": "/industries/franchises",
             "tag": "INDUSTRY",
             "title": "Franchises & Multi-Location Brands",
-            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local\u2026"
+            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local…"
           }
         ]
       }
@@ -3384,22 +3384,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           }
         ]
       },
@@ -3413,13 +3413,13 @@
             "href": "/industries/medical-wellness",
             "tag": "INDUSTRY",
             "title": "Medical & Wellness Centers",
-            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase\u2026"
+            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase…"
           },
           {
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           }
         ]
       }
@@ -3479,22 +3479,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           }
         ]
       },
@@ -3508,19 +3508,19 @@
             "href": "/industries/beauty-med-spas",
             "tag": "INDUSTRY",
             "title": "Beauty & Med Spas",
-            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more\u2026"
+            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more…"
           },
           {
             "href": "/industries/fitness-gyms",
             "tag": "INDUSTRY",
             "title": "Fitness & Gyms",
-            "copy": "Gym and fitness studio marketing is a membership retention business as much as it's a lead\u2026"
+            "copy": "Gym and fitness studio marketing is a membership retention business as much as it's a lead…"
           },
           {
             "href": "/industries/franchises",
             "tag": "INDUSTRY",
             "title": "Franchises & Multi-Location Brands",
-            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local\u2026"
+            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local…"
           }
         ]
       }
@@ -3586,16 +3586,16 @@
             "copy": "Online stores built to convert, from product pages to checkout, so browsers become buyers."
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           }
         ]
       },
@@ -3609,19 +3609,19 @@
             "href": "/industries/beauty-med-spas",
             "tag": "INDUSTRY",
             "title": "Beauty & Med Spas",
-            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more\u2026"
+            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more…"
           },
           {
             "href": "/industries/franchises",
             "tag": "INDUSTRY",
             "title": "Franchises & Multi-Location Brands",
-            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local\u2026"
+            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local…"
           },
           {
             "href": "/industries/automotive-car-wash",
             "tag": "INDUSTRY",
             "title": "Automotive & Car Wash",
-            "copy": "Whether it's a repair shop or a car wash membership, this industry lives on repeat visits and local\u2026"
+            "copy": "Whether it's a repair shop or a car wash membership, this industry lives on repeat visits and local…"
           }
         ]
       }
@@ -3681,19 +3681,19 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
@@ -3710,13 +3710,13 @@
             "href": "/industries/home-services",
             "tag": "INDUSTRY",
             "title": "Home Services & Contractors",
-            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We\u2026"
+            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We…"
           },
           {
             "href": "/industries/hvac-plumbing",
             "tag": "INDUSTRY",
             "title": "HVAC & Plumbing",
-            "copy": "Between emergency calls and seasonal maintenance rushes, HVAC and plumbing marketing has to work\u2026"
+            "copy": "Between emergency calls and seasonal maintenance rushes, HVAC and plumbing marketing has to work…"
           },
           {
             "href": "/industries/painting-renovation",
@@ -3782,22 +3782,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           }
         ]
       },
@@ -3811,19 +3811,19 @@
             "href": "/industries/dental",
             "tag": "INDUSTRY",
             "title": "Dental Practices",
-            "copy": "New patient growth for a dental practice comes down to two things: showing up in local search, and\u2026"
+            "copy": "New patient growth for a dental practice comes down to two things: showing up in local search, and…"
           },
           {
             "href": "/industries/medical-wellness",
             "tag": "INDUSTRY",
             "title": "Medical & Wellness Centers",
-            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase\u2026"
+            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase…"
           },
           {
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           }
         ]
       }
@@ -3883,22 +3883,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           }
         ]
       },
@@ -3912,19 +3912,19 @@
             "href": "/industries/home-services",
             "tag": "INDUSTRY",
             "title": "Home Services & Contractors",
-            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We\u2026"
+            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We…"
           },
           {
             "href": "/industries/moving-storage",
             "tag": "INDUSTRY",
             "title": "Moving & Storage",
-            "copy": "Moving customers research and book on a tight timeline. Your marketing has to be visible at exactly\u2026"
+            "copy": "Moving customers research and book on a tight timeline. Your marketing has to be visible at exactly…"
           },
           {
             "href": "/industries/manufacturing",
             "tag": "INDUSTRY",
             "title": "Manufacturing & Industrial",
-            "copy": "Industrial and manufacturing marketing plays a longer game: fewer leads, higher value, and a much\u2026"
+            "copy": "Industrial and manufacturing marketing plays a longer game: fewer leads, higher value, and a much…"
           }
         ]
       }
@@ -3973,52 +3973,52 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           },
           {
             "href": "/services/aeo-geo",
             "tag": "SERVICE",
             "title": "AEO & GEO",
-            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your\u2026"
+            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your…"
           },
           {
             "href": "/services/voice-agents",
             "tag": "SERVICE",
             "title": "Voice Agents",
-            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without\u2026"
+            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without…"
           },
           {
             "href": "/services/ecommerce-development",
@@ -4030,19 +4030,19 @@
             "href": "/services/business-automation",
             "tag": "SERVICE",
             "title": "Business Automation",
-            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM\u2026"
+            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM…"
           },
           {
             "href": "/services/software-development",
             "tag": "SERVICE",
             "title": "Software Development",
-            "copy": "Beyond a marketing website, we build the custom tools, portals, and integrations businesses need to\u2026"
+            "copy": "Beyond a marketing website, we build the custom tools, portals, and integrations businesses need to…"
           },
           {
             "href": "/services/digital-infrastructure-consulting",
             "tag": "SERVICE",
             "title": "Digital Infrastructure Consulting",
-            "copy": "We assess and rebuild the technical foundation behind your website, software, and data, so growth\u2026"
+            "copy": "We assess and rebuild the technical foundation behind your website, software, and data, so growth…"
           }
         ]
       },
@@ -4056,19 +4056,19 @@
             "href": "/industries/law-firms",
             "tag": "INDUSTRY",
             "title": "Law Firms",
-            "copy": "Legal marketing is one of the most competitive and highest cost-per-click categories online. It has\u2026"
+            "copy": "Legal marketing is one of the most competitive and highest cost-per-click categories online. It has…"
           },
           {
             "href": "/industries/real-estate",
             "tag": "INDUSTRY",
             "title": "Real Estate",
-            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and\u2026"
+            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and…"
           },
           {
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           }
         ]
       }
@@ -4117,52 +4117,52 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           },
           {
             "href": "/services/aeo-geo",
             "tag": "SERVICE",
             "title": "AEO & GEO",
-            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your\u2026"
+            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your…"
           },
           {
             "href": "/services/voice-agents",
             "tag": "SERVICE",
             "title": "Voice Agents",
-            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without\u2026"
+            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without…"
           },
           {
             "href": "/services/ecommerce-development",
@@ -4174,19 +4174,19 @@
             "href": "/services/business-automation",
             "tag": "SERVICE",
             "title": "Business Automation",
-            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM\u2026"
+            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM…"
           },
           {
             "href": "/services/software-development",
             "tag": "SERVICE",
             "title": "Software Development",
-            "copy": "Beyond a marketing website, we build the custom tools, portals, and integrations businesses need to\u2026"
+            "copy": "Beyond a marketing website, we build the custom tools, portals, and integrations businesses need to…"
           },
           {
             "href": "/services/digital-infrastructure-consulting",
             "tag": "SERVICE",
             "title": "Digital Infrastructure Consulting",
-            "copy": "We assess and rebuild the technical foundation behind your website, software, and data, so growth\u2026"
+            "copy": "We assess and rebuild the technical foundation behind your website, software, and data, so growth…"
           }
         ]
       },
@@ -4200,19 +4200,19 @@
             "href": "/industries/automotive-car-wash",
             "tag": "INDUSTRY",
             "title": "Automotive & Car Wash",
-            "copy": "Whether it's a repair shop or a car wash membership, this industry lives on repeat visits and local\u2026"
+            "copy": "Whether it's a repair shop or a car wash membership, this industry lives on repeat visits and local…"
           },
           {
             "href": "/industries/retail-ecommerce",
             "tag": "INDUSTRY",
             "title": "Retail & E-commerce",
-            "copy": "Retail and e-commerce marketing has to work across two worlds at once: the physical store and the\u2026"
+            "copy": "Retail and e-commerce marketing has to work across two worlds at once: the physical store and the…"
           },
           {
             "href": "/industries/beauty-med-spas",
             "tag": "INDUSTRY",
             "title": "Beauty & Med Spas",
-            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more\u2026"
+            "copy": "Beauty and med spa marketing runs on visual proof, real results, real space, real reviews, more…"
           }
         ]
       }
@@ -4261,52 +4261,52 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           },
           {
             "href": "/services/aeo-geo",
             "tag": "SERVICE",
             "title": "AEO & GEO",
-            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your\u2026"
+            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your…"
           },
           {
             "href": "/services/voice-agents",
             "tag": "SERVICE",
             "title": "Voice Agents",
-            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without\u2026"
+            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without…"
           },
           {
             "href": "/services/ecommerce-development",
@@ -4318,19 +4318,19 @@
             "href": "/services/business-automation",
             "tag": "SERVICE",
             "title": "Business Automation",
-            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM\u2026"
+            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM…"
           },
           {
             "href": "/services/software-development",
             "tag": "SERVICE",
             "title": "Software Development",
-            "copy": "Beyond a marketing website, we build the custom tools, portals, and integrations businesses need to\u2026"
+            "copy": "Beyond a marketing website, we build the custom tools, portals, and integrations businesses need to…"
           },
           {
             "href": "/services/digital-infrastructure-consulting",
             "tag": "SERVICE",
             "title": "Digital Infrastructure Consulting",
-            "copy": "We assess and rebuild the technical foundation behind your website, software, and data, so growth\u2026"
+            "copy": "We assess and rebuild the technical foundation behind your website, software, and data, so growth…"
           }
         ]
       },
@@ -4344,19 +4344,19 @@
             "href": "/industries/home-services",
             "tag": "INDUSTRY",
             "title": "Home Services & Contractors",
-            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We\u2026"
+            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We…"
           },
           {
             "href": "/industries/hvac-plumbing",
             "tag": "INDUSTRY",
             "title": "HVAC & Plumbing",
-            "copy": "Between emergency calls and seasonal maintenance rushes, HVAC and plumbing marketing has to work\u2026"
+            "copy": "Between emergency calls and seasonal maintenance rushes, HVAC and plumbing marketing has to work…"
           },
           {
             "href": "/industries/dental",
             "tag": "INDUSTRY",
             "title": "Dental Practices",
-            "copy": "New patient growth for a dental practice comes down to two things: showing up in local search, and\u2026"
+            "copy": "New patient growth for a dental practice comes down to two things: showing up in local search, and…"
           }
         ]
       }
@@ -4406,52 +4406,52 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           },
           {
             "href": "/services/aeo-geo",
             "tag": "SERVICE",
             "title": "AEO & GEO",
-            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your\u2026"
+            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your…"
           },
           {
             "href": "/services/voice-agents",
             "tag": "SERVICE",
             "title": "Voice Agents",
-            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without\u2026"
+            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without…"
           },
           {
             "href": "/services/ecommerce-development",
@@ -4463,19 +4463,19 @@
             "href": "/services/business-automation",
             "tag": "SERVICE",
             "title": "Business Automation",
-            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM\u2026"
+            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM…"
           },
           {
             "href": "/services/software-development",
             "tag": "SERVICE",
             "title": "Software Development",
-            "copy": "Beyond a marketing website, we build the custom tools, portals, and integrations businesses need to\u2026"
+            "copy": "Beyond a marketing website, we build the custom tools, portals, and integrations businesses need to…"
           },
           {
             "href": "/services/digital-infrastructure-consulting",
             "tag": "SERVICE",
             "title": "Digital Infrastructure Consulting",
-            "copy": "We assess and rebuild the technical foundation behind your website, software, and data, so growth\u2026"
+            "copy": "We assess and rebuild the technical foundation behind your website, software, and data, so growth…"
           }
         ]
       },
@@ -4489,19 +4489,19 @@
             "href": "/industries/restaurants-hospitality",
             "tag": "INDUSTRY",
             "title": "Restaurants & Hospitality",
-            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when\u2026"
+            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when…"
           },
           {
             "href": "/industries/real-estate",
             "tag": "INDUSTRY",
             "title": "Real Estate",
-            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and\u2026"
+            "copy": "Real estate marketing has to work on two fronts at once: winning listings from sellers and…"
           },
           {
             "href": "/industries/retail-ecommerce",
             "tag": "INDUSTRY",
             "title": "Retail & E-commerce",
-            "copy": "Retail and e-commerce marketing has to work across two worlds at once: the physical store and the\u2026"
+            "copy": "Retail and e-commerce marketing has to work across two worlds at once: the physical store and the…"
           }
         ]
       }
@@ -4550,52 +4550,52 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
           },
           {
-            "href": "/services/email-marketing",
+            "href": "/services/email-marketing-agency-in-miami",
             "tag": "SERVICE",
             "title": "Email Marketing",
-            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the\u2026"
+            "copy": "Targeted campaigns that turn warm leads and past customers into repeat revenue, without renting the…"
           },
           {
             "href": "/services/aeo-geo",
             "tag": "SERVICE",
             "title": "AEO & GEO",
-            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your\u2026"
+            "copy": "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your…"
           },
           {
             "href": "/services/voice-agents",
             "tag": "SERVICE",
             "title": "Voice Agents",
-            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without\u2026"
+            "copy": "AI voice agents that answer calls, book appointments, and qualify leads around the clock, without…"
           },
           {
             "href": "/services/ecommerce-development",
@@ -4607,19 +4607,19 @@
             "href": "/services/business-automation",
             "tag": "SERVICE",
             "title": "Business Automation",
-            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM\u2026"
+            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM…"
           },
           {
             "href": "/services/software-development",
             "tag": "SERVICE",
             "title": "Software Development",
-            "copy": "Beyond a marketing website, we build the custom tools, portals, and integrations businesses need to\u2026"
+            "copy": "Beyond a marketing website, we build the custom tools, portals, and integrations businesses need to…"
           },
           {
             "href": "/services/digital-infrastructure-consulting",
             "tag": "SERVICE",
             "title": "Digital Infrastructure Consulting",
-            "copy": "We assess and rebuild the technical foundation behind your website, software, and data, so growth\u2026"
+            "copy": "We assess and rebuild the technical foundation behind your website, software, and data, so growth…"
           }
         ]
       },
@@ -4633,19 +4633,19 @@
             "href": "/industries/restaurants-hospitality",
             "tag": "INDUSTRY",
             "title": "Restaurants & Hospitality",
-            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when\u2026"
+            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when…"
           },
           {
             "href": "/industries/retail-ecommerce",
             "tag": "INDUSTRY",
             "title": "Retail & E-commerce",
-            "copy": "Retail and e-commerce marketing has to work across two worlds at once: the physical store and the\u2026"
+            "copy": "Retail and e-commerce marketing has to work across two worlds at once: the physical store and the…"
           },
           {
             "href": "/industries/fitness-gyms",
             "tag": "INDUSTRY",
             "title": "Fitness & Gyms",
-            "copy": "Gym and fitness studio marketing is a membership retention business as much as it's a lead\u2026"
+            "copy": "Gym and fitness studio marketing is a membership retention business as much as it's a lead…"
           }
         ]
       }
@@ -4710,28 +4710,28 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           }
         ]
       },
@@ -4745,13 +4745,13 @@
             "href": "/industries/roofing",
             "tag": "INDUSTRY",
             "title": "Roofing",
-            "copy": "Roofing demand spikes hard around storm season, and the companies that rank and respond fastest win\u2026"
+            "copy": "Roofing demand spikes hard around storm season, and the companies that rank and respond fastest win…"
           },
           {
             "href": "/industries/home-services",
             "tag": "INDUSTRY",
             "title": "Home Services & Contractors",
-            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We\u2026"
+            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We…"
           }
         ]
       }
@@ -4819,25 +4819,25 @@
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           },
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           }
         ]
       },
@@ -4851,13 +4851,13 @@
             "href": "/industries/automotive-car-wash",
             "tag": "INDUSTRY",
             "title": "Automotive & Car Wash",
-            "copy": "Whether it's a repair shop or a car wash membership, this industry lives on repeat visits and local\u2026"
+            "copy": "Whether it's a repair shop or a car wash membership, this industry lives on repeat visits and local…"
           },
           {
             "href": "/industries/franchises",
             "tag": "INDUSTRY",
             "title": "Franchises & Multi-Location Brands",
-            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local\u2026"
+            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local…"
           }
         ]
       }
@@ -4922,28 +4922,28 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
             "href": "/services/business-automation",
             "tag": "SERVICE",
             "title": "Business Automation",
-            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM\u2026"
+            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM…"
           },
           {
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           }
         ]
       },
@@ -4957,13 +4957,13 @@
             "href": "/industries/accounting-tax",
             "tag": "INDUSTRY",
             "title": "Accounting & Tax Services",
-            "copy": "Tax season creates a short, intense demand spike. The rest of the year is about building steady\u2026"
+            "copy": "Tax season creates a short, intense demand spike. The rest of the year is about building steady…"
           },
           {
             "href": "/industries/professional-services",
             "tag": "INDUSTRY",
             "title": "Professional Services",
-            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise\u2026"
+            "copy": "From consultants to specialty firms, professional services marketing sells expertise, and expertise…"
           }
         ]
       }
@@ -5028,22 +5028,22 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
             "href": "/services/business-automation",
             "tag": "SERVICE",
             "title": "Business Automation",
-            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM\u2026"
+            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM…"
           }
         ]
       },
@@ -5057,13 +5057,13 @@
             "href": "/industries/medical-wellness",
             "tag": "INDUSTRY",
             "title": "Medical & Wellness Centers",
-            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase\u2026"
+            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase…"
           },
           {
             "href": "/industries/franchises",
             "tag": "INDUSTRY",
             "title": "Franchises & Multi-Location Brands",
-            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local\u2026"
+            "copy": "Multi-location marketing needs to feel consistent at the brand level and precise at the local…"
           }
         ]
       }
@@ -5128,28 +5128,28 @@
         "paras": [],
         "cards": [
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           },
           {
             "href": "/services/business-automation",
             "tag": "SERVICE",
             "title": "Business Automation",
-            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM\u2026"
+            "copy": "We automate the repetitive, manual work eating into your team's day, connecting your CRM…"
           },
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           }
         ]
       },
@@ -5163,13 +5163,13 @@
             "href": "/industries/health-cannabis",
             "tag": "INDUSTRY",
             "title": "Health & Cannabis Dispensaries",
-            "copy": "Cannabis and health-adjacent marketing has to work within real advertising restrictions, which\u2026"
+            "copy": "Cannabis and health-adjacent marketing has to work within real advertising restrictions, which…"
           },
           {
             "href": "/industries/medical-wellness",
             "tag": "INDUSTRY",
             "title": "Medical & Wellness Centers",
-            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase\u2026"
+            "copy": "Patients research medical and wellness providers more carefully than almost any other purchase…"
           }
         ]
       }
@@ -5235,16 +5235,16 @@
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           },
           {
-            "href": "/services/social-media-marketing",
+            "href": "/services/social-media-paid-marketing",
             "tag": "SERVICE",
             "title": "Social Media Marketing",
-            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built\u2026"
+            "copy": "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, built…"
           },
           {
-            "href": "/services/content-marketing",
+            "href": "/services/miami-content-marketing",
             "tag": "SERVICE",
             "title": "Content Marketing",
             "copy": "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there."
@@ -5261,7 +5261,7 @@
             "href": "/industries/restaurants-hospitality",
             "tag": "INDUSTRY",
             "title": "Restaurants & Hospitality",
-            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when\u2026"
+            "copy": "A restaurant's marketing lives and dies on social proof, and how easy it is to find you when…"
           }
         ]
       }
@@ -5327,19 +5327,19 @@
             "href": "/services/web-development",
             "tag": "SERVICE",
             "title": "Web Development",
-            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing\u2026"
+            "copy": "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good doing…"
           },
           {
-            "href": "/services/seo",
+            "href": "/services/search-engine-optimization",
             "tag": "SERVICE",
             "title": "Search Engine Optimization",
-            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank\u2026"
+            "copy": "On-page, off-page, and technical SEO built around how your customers actually search, so you rank…"
           },
           {
-            "href": "/services/sem",
+            "href": "/services/search-engine-marketing",
             "tag": "SERVICE",
             "title": "Search Engine Marketing",
-            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings\u2026"
+            "copy": "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings…"
           }
         ]
       },
@@ -5353,57 +5353,18 @@
             "href": "/industries/waste-container-rental",
             "tag": "INDUSTRY",
             "title": "Waste & Container Rental",
-            "copy": "From contractor accounts to one-time homeowner rentals, container rental marketing has to speak to\u2026"
+            "copy": "From contractor accounts to one-time homeowner rentals, container rental marketing has to speak to…"
           },
           {
             "href": "/industries/home-services",
             "tag": "INDUSTRY",
             "title": "Home Services & Contractors",
-            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We\u2026"
+            "copy": "From general contractors to specialty trades, your next job is usually one Google search away. We…"
           }
         ]
       }
     ],
     "cta": "Your business could be next.",
     "ctaSub": "Free strategy session. No long-term contracts, no guesswork, just strategy that works."
-  },
-  {
-    "group": "blog",
-    "slug": "automate-your-sales-pipeline-fast",
-    "title": "Automate Your Sales Pipeline Fast \u2014 Live Media Digital",
-    "description": "Cut repetitive sales tasks. Build a repeatable, automated pipeline with Live Media Digital.",
-    "h1": "Automate Your Sales Pipeline Fast",
-    "eyebrow": "AUTOMATION",
-    "heroSub": "Cut repetitive sales tasks. Build a repeatable, automated pipeline with Live Media Digital.",
-    "crumbs": [],
-    "sections": [],
-    "cta": "",
-    "ctaSub": ""
-  },
-  {
-    "group": "blog",
-    "slug": "optimize-workflows-for-growth",
-    "title": "Optimize Workflows for Growth \u2014 Live Media Digital",
-    "description": "Remove bottlenecks as your team scales. Boost speed and efficiency.",
-    "h1": "Optimize Workflows for Growth",
-    "eyebrow": "STRATEGY",
-    "heroSub": "Remove bottlenecks as your team scales. Boost speed and efficiency.",
-    "crumbs": [],
-    "sections": [],
-    "cta": "",
-    "ctaSub": ""
-  },
-  {
-    "group": "blog",
-    "slug": "why-automation-projects-fail",
-    "title": "Why Automation Projects Fail \u2014 Live Media Digital",
-    "description": "Most automation fails within months. Learn why and avoid it.",
-    "h1": "Why Automation Projects Fail",
-    "eyebrow": "BEST PRACTICES",
-    "heroSub": "Most automation fails within months. Learn why and avoid it.",
-    "crumbs": [],
-    "sections": [],
-    "cta": "",
-    "ctaSub": ""
   }
 ]

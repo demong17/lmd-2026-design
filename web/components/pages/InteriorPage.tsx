@@ -19,7 +19,7 @@ export function InteriorPage({ page }: { page: InteriorRecord }) {
           <h1>{page.h1}</h1>
           {page.heroSub ? <p className="section-sub center">{page.heroSub}</p> : null}
           <div className="hero-ctas center">
-            <Link href="/get-report" className="btn btn-primary">
+            <Link href="/consultation" className="btn btn-primary">
               Get Free Consultation
             </Link>
             <a href={`tel:${SITE_PHONE_TEL}`} className="btn btn-outline">
@@ -80,7 +80,7 @@ export function InteriorPage({ page }: { page: InteriorRecord }) {
             <h2>{page.cta}</h2>
             {page.ctaSub ? <p className="section-sub">{page.ctaSub}</p> : null}
             <div className="hero-ctas center">
-              <Link href="/get-report" className="btn btn-primary">
+              <Link href="/consultation" className="btn btn-primary">
                 Get Free Consultation
               </Link>
               <a href={`tel:${SITE_PHONE_TEL}`} className="btn btn-outline">

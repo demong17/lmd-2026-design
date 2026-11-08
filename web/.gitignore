@@ -9,6 +9,7 @@ build/
 # env / secrets
 .env*
 !.env.example
+resend.config.json
 
 # debug
 npm-debug.log*
@@ -17,7 +18,14 @@ yarn-error.log*
 
 # typescript
 next-env.d.ts
+tsconfig.tsbuildinfo
 
 # next auto-generated agent docs
 AGENTS.md
 CLAUDE.md
+
+# local junk / deploy artifacts
+*.zip
+.tmp-verify/
+resp-no.txt
+ETS-tracking-failures.pdf

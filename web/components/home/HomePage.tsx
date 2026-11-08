@@ -3,44 +3,46 @@
 import Link from "next/link";
 import { FormEvent, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { BentoGlowGrid } from "@/components/home/BentoGlowGrid";
-import { HOME_FAQS, SITE_EMAIL, SITE_PHONE, SITE_PHONE_TEL } from "@/lib/site";
+import { ServicesBento } from "@/components/home/ServicesBento";
+import { SiteImage } from "@/components/media/SiteImage";
+import { HOME_FAQS, SITE_PHONE, SITE_PHONE_TEL } from "@/lib/site";
 
 const isValidWebsiteUrl = (value: string) =>
   /^(https?:\/\/)?([a-zA-Z0-9](-?[a-zA-Z0-9])*\.)+[a-zA-Z]{2,}(:\d+)?(\/\S*)?$/.test(value);
 
-const BENTO = [
-  { href: "/services/seo", title: "Search Engine Optimization", copy: "The foundation of every strategy. On-page, off-page, and technical SEO so you rank where it matters, and stay there.", video: "bento-seo", extra: false },
-  { href: "/services/sem", title: "Search Engine Marketing", copy: "Paid search on Google & Bing that gets qualified traffic fast, ideal while your organic rankings are still building.", video: "bento-sem", extra: false },
-  { href: "/services/social-media-marketing", title: "Social Media Marketing", copy: "Paid campaigns on Facebook, Instagram and beyond that turn followers into customers, coordinated with your internal team.", video: "bento-social", extra: false },
-  { href: "/services/web-development", title: "Web Development", copy: "Fast, mobile-friendly websites engineered to convert the traffic we drive, not just look good.", video: "bento-webdev", extra: false },
-  { href: "/services/content-marketing", title: "Content Marketing", copy: "SEO-driven content, blogs, and landing pages written to rank on Google and sell once they get there.", video: "bento-content", extra: false },
-  { href: "/services/email-marketing", title: "Email Marketing", copy: "Targeted campaigns that turn warm leads and past customers into repeat revenue.", video: "bento-email", extra: false },
-  { href: "/services/aeo-geo", title: "AEO & GEO", copy: "Answer and generative engine optimization so ChatGPT, Perplexity, and AI Overviews recommend your business by name.", video: "bento-aeogeo", extra: true, extraClass: "bento-card-extra-1" },
-  { href: "/services/voice-agents", title: "Voice Agents", copy: "AI voice agents that answer calls, book appointments, and qualify leads around the clock.", video: "bento-voice", extra: true, extraClass: "bento-card-extra-2" },
-  { href: "/services/ecommerce-development", title: "E-commerce Development", copy: "Online stores built to convert, from product pages to checkout, so browsers become buyers.", video: "bento-ecommerce", extra: true, extraClass: "bento-card-extra-3" },
-  { href: "/services/business-automation", title: "Business Automation", copy: "Connect your tools and automate the manual work eating your team's day.", video: "bento-automation", extra: true, extraClass: "bento-card-extra-4" },
-  { href: "/services/software-development", title: "Software Development", copy: "Custom tools, portals, and integrations built around how you operate.", video: "bento-softwaredev", extra: true, extraClass: "bento-card-extra-5" },
-  { href: "/services/digital-infrastructure-consulting", title: "Digital Infrastructure Consulting", copy: "Hosting, security, and systems built to scale with your growth.", video: "bento-infra", extra: true, extraClass: "bento-card-extra-6" },
-];
-
 const PARTNERS = [
-  { src: "/assets/lmd/partners/google-partner.svg", alt: "Google Partner" },
+  { src: "/assets/lmd/partners/google-partner.svg?v=2", alt: "Google Partner" },
   { src: "/assets/lmd/partners/microsoft.webp", alt: "Microsoft Advertising Partner" },
-  { src: "/assets/lmd/partners/facebook.webp", alt: "Meta / Facebook Advertising Partner" },
+  { src: "/assets/lmd/partners/facebook.webp?v=2", alt: "Meta Blueprint" },
   { src: "/assets/lmd/partners/yelp.webp", alt: "Yelp Advertising Partner" },
   { src: "/assets/lmd/partners/klaviyo.webp", alt: "Klaviyo Certified Partner" },
   { src: "/assets/lmd/partners/semrush.webp", alt: "Semrush Certified Agency Partner" },
   { src: "/assets/lmd/partners/reddit.svg", alt: "Reddit Certified Partner" },
   { src: "/assets/lmd/partners/pinterest.svg", alt: "Pinterest Certified Partner" },
   { src: "/assets/lmd/partners/tiktok.svg", alt: "TikTok Certified Partner" },
-  { src: "/assets/lmd/partners/linkedin.svg", alt: "LinkedIn" },
+  { src: "/assets/lmd/partners/linkedin.svg", alt: "LinkedIn Marketing Partner" },
 ];
 
 const CLIENT_LOGOS = [
-  "logo3.webp", "logo10.webp", "signatture.webp", "sergio.webp", "logo.webp", "fyi.webp",
-  "logo30.webp", "logo29.webp", "logo28.webp", "logo27.webp", "logo26.webp", "logo25.webp",
-  "logo24.webp", "logo23.webp", "logo22.webp", "logo21.webp", "bkf.webp", "fastlabs.webp", "logo18.webp",
+  { file: "logo3.webp", alt: "Sushi Sake restaurant logo" },
+  { file: "logo10.webp", alt: "Miracle Leaf Health Centers logo" },
+  { file: "signatture.webp", alt: "Signature Impact Windows & Doors logo" },
+  { file: "sergio.webp", alt: "Sergio's Cuban Cafe + Grill logo" },
+  { file: "logo.webp", alt: "El Car Wash logo" },
+  { file: "fyi.webp", alt: "Florida Yachts International logo" },
+  { file: "logo30.webp", alt: "Vidamax Medical Center logo" },
+  { file: "logo29.webp", alt: "Sergio's restaurant logo" },
+  { file: "logo28.webp", alt: "Bless Medical Center logo" },
+  { file: "logo27.webp", alt: "CanoDental logo" },
+  { file: "logo26.webp", alt: "Combo Kitchen logo" },
+  { file: "logo25.webp", alt: "CMC Claim Consultants logo" },
+  { file: "logo24.webp", alt: "Doral Collision Center and Porsche Approved Collision Center logos" },
+  { file: "logo23.webp", alt: "Exclusive Motoring logo" },
+  { file: "logo22.webp", alt: "Only in Dade logo" },
+  { file: "logo21.webp", alt: "1st Key Insurance logo" },
+  { file: "bkf.webp", alt: "BKF Decor Solutions logo" },
+  { file: "fastlabs.webp", alt: "Fast Labs logo" },
+  { file: "logo18.webp", alt: "Family Medical Clinic logo" },
 ];
 
 const QUOTES = [
@@ -89,7 +91,6 @@ const INDUSTRY_COLS = [
 export function HomePage() {
   const router = useRouter();
   const [searchError, setSearchError] = useState(false);
-  const [bentoOpen, setBentoOpen] = useState(false);
   const [faqOpen, setFaqOpen] = useState(0);
   const [quoteIndex, setQuoteIndex] = useState(0);
   const heroRef = useRef<HTMLElement>(null);
@@ -101,9 +102,38 @@ export function HomePage() {
 
   useEffect(() => {
     const video = videoRef.current;
-    if (video && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      video.play().catch(() => {});
-    }
+    if (!video) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    if (document.documentElement.getAttribute("data-a11y-motion") === "on") return;
+
+    video.muted = true;
+    video.defaultMuted = true;
+    video.playsInline = true;
+    video.setAttribute("muted", "");
+    video.setAttribute("playsinline", "");
+    video.setAttribute("webkit-playsinline", "");
+
+    const tryPlay = () => {
+      const play = video.play();
+      if (play) play.catch(() => {});
+    };
+
+    tryPlay();
+    video.addEventListener("loadeddata", tryPlay);
+    video.addEventListener("canplay", tryPlay);
+
+    const unlock = () => tryPlay();
+    window.addEventListener("pointerdown", unlock, { once: true });
+    window.addEventListener("touchstart", unlock, { once: true });
+    window.addEventListener("keydown", unlock, { once: true });
+
+    return () => {
+      video.removeEventListener("loadeddata", tryPlay);
+      video.removeEventListener("canplay", tryPlay);
+      window.removeEventListener("pointerdown", unlock);
+      window.removeEventListener("touchstart", unlock);
+      window.removeEventListener("keydown", unlock);
+    };
   }, []);
 
   useEffect(() => {
@@ -135,24 +165,6 @@ export function HomePage() {
     const timer = window.setInterval(() => setQuoteIndex((i) => (i + 1) % QUOTES.length), 6000);
     return () => window.clearInterval(timer);
   }, []);
-
-  useEffect(() => {
-    const videos = document.querySelectorAll<HTMLVideoElement>(".bento-media video");
-    if (!videos.length || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            (entry.target as HTMLVideoElement).play().catch(() => {});
-            io.unobserve(entry.target);
-          }
-        });
-      },
-      { rootMargin: "200px" },
-    );
-    videos.forEach((v) => io.observe(v));
-    return () => io.disconnect();
-  }, [bentoOpen]);
 
   const updateTeamArrows = () => {
     const track = teamTrackRef.current;
@@ -190,7 +202,17 @@ export function HomePage() {
   return (
     <main>
       <section className="hero hero-dark hero-video" id="hero-dark" ref={heroRef}>
-        <video className="hero-bg-video" ref={videoRef} muted loop playsInline preload="auto" poster="/assets/images/hero-bg-poster.webp" aria-hidden="true">
+        <video
+          className="hero-bg-video"
+          ref={videoRef}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          poster="/assets/images/hero-bg-poster.webp?v=3"
+          aria-hidden="true"
+        >
           <source src="/assets/images/bento-video/hero-bg.mp4" type="video/mp4" />
         </video>
         <div className="hero-video-overlay" aria-hidden="true" />
@@ -199,7 +221,7 @@ export function HomePage() {
         <div className="hero-grid" aria-hidden="true" />
         <div className="container">
           <div className="reveal badge-pill">SHARP STRATEGIES. SERIOUS RESULTS.</div>
-          <h1 className="reveal hero-title">From Click to Closed Deal.<br />We Help You Scale.</h1>
+          <h1 className="reveal hero-title">Miami Digital Marketing Agency.<br />From Click to Closed Deal.</h1>
           <p className="reveal hero-sub">Live Media Digital combines SEO, GEO, paid media, web development and content into one strategy, built around leads, conversions, and ROI you can trace back to the campaign.</p>
           <form className={`reveal hero-search${searchError ? " has-error" : ""}`} onSubmit={onSearch}>
             <svg className="hero-search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -228,7 +250,15 @@ export function HomePage() {
         <div className="marquee">
           <div className="marquee-track">
             {[...PARTNERS, ...PARTNERS].map((p, i) => (
-              <img key={`${p.src}-${i}`} src={p.src} alt={p.alt} />
+              <SiteImage
+                key={`${p.src}-${i}`}
+                src={p.src}
+                alt={p.alt}
+                aria-hidden={i >= PARTNERS.length}
+                width={160}
+                height={44}
+                style={{ width: "auto" }}
+              />
             ))}
           </div>
         </div>
@@ -252,8 +282,24 @@ export function HomePage() {
               </ul>
             </div>
             <div className="step-media two-up">
-              <img src="/assets/images/step1-a.png" alt="Marketing strategy planning" loading="lazy" />
-              <img src="/assets/images/step1-b.png" alt="Digital marketing research" loading="lazy" />
+              <div className="step-photo">
+                <SiteImage
+                  src="/assets/images/step1-a.png"
+                  alt="Strategist reviewing a marketing plan with a South Florida business owner"
+                  fill
+                  sizes="(max-width: 768px) 45vw, 280px"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
+              <div className="step-photo">
+                <SiteImage
+                  src="/assets/images/step1-b.png"
+                  alt="Digital marketing research notes, keywords, and competitor analysis"
+                  fill
+                  sizes="(max-width: 768px) 45vw, 280px"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
             </div>
           </div>
           <div className="step step-2 reveal reverse">
@@ -268,7 +314,13 @@ export function HomePage() {
               </ul>
             </div>
             <div className="step-media canvas-mock">
-              <img src="/assets/images/step2-strategy.webp" alt="SEO, paid media, and web strategy tied together into one plan" width={1200} height={896} loading="lazy" />
+              <SiteImage
+                src="/assets/images/step2-strategy.webp"
+                alt="SEO, paid media, and web strategy mapped together into one campaign plan"
+                fill
+                sizes="(max-width: 900px) 100vw, 50vw"
+                style={{ objectFit: "cover" }}
+              />
             </div>
           </div>
           <div className="step step-3 reveal">
@@ -294,8 +346,29 @@ export function HomePage() {
                 </div>
               </div>
               <div className="chart-card-date">Rolling 90-day performance</div>
-              <svg className="chart-line" viewBox="0 0 300 90" preserveAspectRatio="none">
-                <polyline points="0,70 40,68 70,50 100,58 140,30 180,36 220,14 260,20 300,4" fill="none" stroke="#3AC96B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <svg className="chart-line" viewBox="0 0 300 90" preserveAspectRatio="none" aria-hidden="true">
+                <defs>
+                  <linearGradient id="chart-line-fill" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stopColor="#3AC96B" stopOpacity="0.28" />
+                    <stop offset="100%" stopColor="#3AC96B" stopOpacity="0" />
+                  </linearGradient>
+                </defs>
+                <path
+                  className="chart-line-fill"
+                  d="M0 70 L40 68 70 50 100 58 140 30 180 36 220 14 260 20 300 4 V90 H0 Z"
+                  fill="url(#chart-line-fill)"
+                />
+                <path
+                  className="chart-line-plot"
+                  pathLength="1"
+                  d="M0 70 L40 68 70 50 100 58 140 30 180 36 220 14 260 20 300 4"
+                  fill="none"
+                  stroke="#3AC96B"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <circle className="chart-line-dot" cx="300" cy="4" r="4.5" fill="#fff" stroke="#3AC96B" strokeWidth="2.5" />
               </svg>
               <div className="chart-card-foot"><span>Month 1</span><span>Month 3</span></div>
             </div>
@@ -310,38 +383,7 @@ export function HomePage() {
             <h2>Team of Strategists, zero wasted spend.</h2>
             <p className="section-sub">Built for the businesses that can&apos;t afford to guess: dentists, contractors, restaurants, lawyers, HVAC companies, and every local team competing for the same customers.</p>
           </div>
-          <BentoGlowGrid className={`bento-grid${bentoOpen ? " expanded" : ""}`}>
-            {BENTO.filter((c) => !c.extra).map((card) => (
-              <div className="bento-card reveal" data-bento-glow key={card.href}>
-                <span className="bento-glow" aria-hidden="true" />
-                <div className="bento-media">
-                  <video src={`/assets/images/bento-video/${card.video}.mp4?v=2`} poster={`/assets/images/${card.video}.webp?v=2`} width={800} height={450} muted loop playsInline preload="none" aria-label={card.title} />
-                </div>
-                <h3>{card.title}</h3>
-                <p>{card.copy}</p>
-                <Link href={card.href} className="bento-card-btn">Learn more →</Link>
-              </div>
-            ))}
-            <div className="bento-more-row">
-              <button type="button" className="bento-more-toggle" aria-expanded={bentoOpen} onClick={() => setBentoOpen((o) => !o)}>
-                <span>{bentoOpen ? "See less" : "See more"}</span>
-                <svg className="bento-more-caret" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M6 9l6 6 6-6" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </button>
-            </div>
-            {BENTO.filter((c) => c.extra).map((card) => (
-              <div className={`bento-card bento-card-extra ${card.extraClass ?? ""}`} data-bento-glow key={card.href}>
-                <span className="bento-glow" aria-hidden="true" />
-                <div className="bento-media">
-                  <video src={`/assets/images/bento-video/${card.video}.mp4?v=2`} poster={`/assets/images/${card.video}.webp?v=2`} width={800} height={450} muted loop playsInline preload="none" aria-label={card.title} />
-                </div>
-                <h3>{card.title}</h3>
-                <p>{card.copy}</p>
-                <Link href={card.href} className="bento-card-btn">Learn more →</Link>
-              </div>
-            ))}
-          </BentoGlowGrid>
+          <ServicesBento />
         </div>
       </section>
 
@@ -353,11 +395,26 @@ export function HomePage() {
           </div>
           <div className="trust-tiles-marquee reveal">
             <div className="trust-tiles-track">
-              {CLIENT_LOGOS.map((file) => (
-                <img key={file} src={`/assets/lmd/clients/${file}`} alt="Live Media Digital client logo" />
+              {CLIENT_LOGOS.map((logo) => (
+                <SiteImage
+                  key={logo.file}
+                  src={`/assets/lmd/clients/${logo.file}`}
+                  alt={logo.alt}
+                  width={180}
+                  height={64}
+                  style={{ width: "auto" }}
+                />
               ))}
-              {CLIENT_LOGOS.map((file) => (
-                <img key={`dup-${file}`} src={`/assets/lmd/clients/${file}`} alt="" aria-hidden="true" />
+              {CLIENT_LOGOS.map((logo) => (
+                <SiteImage
+                  key={`dup-${logo.file}`}
+                  src={`/assets/lmd/clients/${logo.file}`}
+                  alt={logo.alt}
+                  aria-hidden
+                  width={180}
+                  height={64}
+                  style={{ width: "auto" }}
+                />
               ))}
             </div>
           </div>
@@ -374,7 +431,15 @@ export function HomePage() {
           <div className="case-rows">
             <article className="case-row reveal">
               <div className="case-row-media">
-                <img src="/assets/lmd/testimonials/el-car-wash.webp" alt="El Car Wash" loading="lazy" />
+                <div className="case-photo">
+                  <SiteImage
+                    src="/assets/lmd/testimonials/el-car-wash.webp"
+                    alt="El Car Wash location with unlimited membership branding"
+                    fill
+                    sizes="(max-width: 900px) 100vw, 52vw"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
+                  />
+                </div>
                 <div className="case-result"><span className="case-result-stat">500K+</span><span className="case-result-label">unlimited members, up from 10,000</span></div>
               </div>
               <div className="case-row-text">
@@ -386,7 +451,15 @@ export function HomePage() {
             </article>
             <article className="case-row reverse reveal">
               <div className="case-row-media">
-                <img src="/assets/lmd/testimonials/miracle-leaf-ribbon.webp" alt="Miracle Leaf" loading="lazy" />
+                <div className="case-photo">
+                  <SiteImage
+                    src="/assets/lmd/testimonials/miracle-leaf-ribbon.webp"
+                    alt="Miracle Leaf clinic storefront with grand opening ribbon"
+                    fill
+                    sizes="(max-width: 900px) 100vw, 52vw"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
+                  />
+                </div>
                 <div className="case-result"><span className="case-result-stat">47%</span><span className="case-result-label">increase in foot traffic across both locations</span></div>
               </div>
               <div className="case-row-text">
@@ -398,7 +471,15 @@ export function HomePage() {
             </article>
             <article className="case-row reveal">
               <div className="case-row-media">
-                <img src="/assets/lmd/testimonials/crown-roofing.webp" alt="Crown Roofing & Waterproofing" loading="lazy" />
+                <div className="case-photo">
+                  <SiteImage
+                    src="/assets/lmd/testimonials/crown-roofing.webp"
+                    alt="Crown Roofing and Waterproofing crew working on a Florida roof"
+                    fill
+                    sizes="(max-width: 900px) 100vw, 52vw"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
+                  />
+                </div>
                 <div className="case-result"><span className="case-result-stat">+32%</span><span className="case-result-label">increase in leads</span></div>
               </div>
               <div className="case-row-text">
@@ -449,7 +530,7 @@ export function HomePage() {
                   aria-label={`${item.name}, ${item.company}`}
                   onClick={() => setQuoteIndex(i)}
                 >
-                  <img src={item.img} alt="" />
+                  <SiteImage src={item.img} alt={`${item.name} of ${item.company}`} width={96} height={96} style={{ width: "100%", height: "100%" }} />
                 </button>
               ))}
             </div>
@@ -463,7 +544,7 @@ export function HomePage() {
             <div className="team-intro-text">
               <h2>Your strategy team, on call.</h2>
               <p className="section-sub">You&apos;ll work directly with Abe and Schneider, not a rotating account manager or an outsourced ticket queue.</p>
-              <Link href="/#consultation" className="btn btn-primary">Get Free Consultation</Link>
+              <Link href="/consultation" className="btn btn-primary">Get Free Consultation</Link>
             </div>
             <div className="team-cards-wrap">
               <button type="button" className="team-arrow team-arrow-prev" aria-label="Previous team member" disabled={teamPrevOff} onClick={() => teamTrackRef.current?.scrollBy({ left: -teamStep(), behavior: "smooth" })}>
@@ -471,12 +552,28 @@ export function HomePage() {
               </button>
               <div className="team-cards-track" ref={teamTrackRef} onScroll={updateTeamArrows}>
                 <div className="team-card">
-                  <img src="/assets/lmd/team/abe-rodriguez.jpg" alt="Abe Rodriguez" />
+                  <div className="team-photo">
+                    <SiteImage
+                      src="/assets/lmd/about/abe-portrait.png"
+                      alt="Abe Rodriguez, Head of Business Development at Live Media Digital"
+                      fill
+                      sizes="(max-width: 768px) 50vw, 420px"
+                      style={{ objectFit: "cover", objectPosition: "center top" }}
+                    />
+                  </div>
                   <strong>Abe Rodriguez</strong>
                   <span>Head of Business Development</span>
                 </div>
                 <div className="team-card">
-                  <img src="/assets/lmd/team/schneider-jean.jpg" alt="Schneider Jean" />
+                  <div className="team-photo">
+                    <SiteImage
+                      src="/assets/lmd/team/schneider-jean.jpg"
+                      alt="Schneider Jean, Chief Digital Strategist at Live Media Digital"
+                      fill
+                      sizes="(max-width: 768px) 50vw, 420px"
+                      style={{ objectFit: "cover", objectPosition: "center top" }}
+                    />
+                  </div>
                   <strong>Schneider Jean</strong>
                   <span>Chief Digital Strategist</span>
                 </div>
@@ -505,7 +602,7 @@ export function HomePage() {
                 <li>Monthly performance reporting</li>
                 <li>Email support</li>
               </ul>
-              <Link href="/#consultation" className="btn btn-outline btn-block">Start with Launch</Link>
+              <Link href="/consultation" className="btn btn-outline btn-block">Start with Launch</Link>
             </article>
             <article className="plan-card featured">
               <span className="popular-pill">MOST POPULAR</span>
@@ -517,7 +614,7 @@ export function HomePage() {
                 <li>Paid social ad management</li>
                 <li>Dedicated strategist &amp; priority support</li>
               </ul>
-              <Link href="/#consultation" className="btn btn-primary btn-block">Start with Grow</Link>
+              <Link href="/consultation" className="btn btn-primary btn-block">Start with Grow</Link>
             </article>
             <article className="plan-card">
               <h3>Scale</h3>
@@ -528,7 +625,7 @@ export function HomePage() {
                 <li>Custom content &amp; creative production</li>
                 <li>Dedicated account team &amp; quarterly reviews</li>
               </ul>
-              <Link href="/#consultation" className="btn btn-outline btn-block">Start with Scale</Link>
+              <Link href="/consultation" className="btn btn-outline btn-block">Start with Scale</Link>
             </article>
           </div>
           <ul className="plans-trust-strip reveal">
@@ -542,7 +639,7 @@ export function HomePage() {
               <span>Multi-location or franchise? We&apos;ll build a plan around your whole footprint.</span>
             </div>
             <p className="plans-enterprise-price">Custom Pricing</p>
-            <Link href="/#consultation" className="btn btn-outline btn-sm">Talk to Us</Link>
+            <Link href="/consultation" className="btn btn-outline btn-sm">Talk to Us</Link>
           </div>
         </div>
       </section>
@@ -552,9 +649,18 @@ export function HomePage() {
           <div className="section-head reveal">
             <h2>Straight answers, before you call.</h2>
             <p className="section-sub">Can&apos;t find what you&apos;re looking for? Our team is one call away.</p>
+            <p className="faq-more">
+              <Link href="/faqs">Read all digital marketing FAQs</Link>
+            </p>
             <Link href="/case-studies/family-medical-group" className="cs-card" style={{ marginTop: 32 }}>
               <div className="cs-card-media">
-                <img src="/assets/lmd/testimonials/family-medical-group.webp" alt="The Family Medical Group" loading="lazy" />
+                <SiteImage
+                  src="/assets/lmd/testimonials/family-medical-group.webp"
+                  alt="The Family Medical Group clinic, scaled from 2 to 16 locations"
+                  fill
+                  sizes="(max-width: 900px) 100vw, 420px"
+                  style={{ objectFit: "cover", objectPosition: "center" }}
+                />
                 <div className="cs-card-stat"><strong>16</strong><span>clinic locations, up from 2</span></div>
               </div>
               <div className="cs-card-body">
@@ -592,7 +698,7 @@ export function HomePage() {
           <h2>Your business deserves<br />serious results.</h2>
           <p className="section-sub">Join the businesses already growing with Live Media Digital. No long-term contracts, no guesswork, just strategy that works.</p>
           <div className="hero-ctas center">
-            <a href={`mailto:${SITE_EMAIL}`} className="btn btn-primary">Get Free Consultation</a>
+            <Link href="/consultation" className="btn btn-primary">Get Free Consultation</Link>
             <a href={`tel:${SITE_PHONE_TEL}`} className="btn btn-outline">Call {SITE_PHONE}</a>
           </div>
           <ul className="hero-meta center">

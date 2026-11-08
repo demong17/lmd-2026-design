@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { JsonLd } from "@/components/JsonLd";
 import { MailtoForm } from "@/components/forms/MailtoForm";
-import { SITE_EMAIL, SITE_PHONE, SITE_PHONE_TEL, SITE_URL, SOCIAL } from "@/lib/site";
+import { breadcrumbSchema, SITE_EMAIL, SITE_PHONE, SITE_PHONE_TEL, SITE_URL, SOCIAL, webPageSchema } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -11,7 +12,22 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <main>
+    <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Contact", path: "/contact" },
+        ])}
+      />
+      <JsonLd
+        data={webPageSchema({
+          name: "Contact",
+          path: "/contact",
+          description: metadata.description,
+          type: "ContactPage",
+        })}
+      />
+      <main>
       <section className="page-hero">
         <div className="container">
           <p className="breadcrumb">
@@ -86,10 +102,6 @@ export default function ContactPage() {
                 <input type="email" id="cf-email" name="email" autoComplete="email" required placeholder=" " />
               </div>
               <div className="form-field">
-                <label htmlFor="cf-phone">Phone number</label>
-                <input type="tel" id="cf-phone" name="phone" autoComplete="tel" required placeholder=" " />
-              </div>
-              <div className="form-field">
                 <label htmlFor="cf-business">Business name</label>
                 <input type="text" id="cf-business" name="business" autoComplete="organization" required placeholder=" " />
               </div>
@@ -103,5 +115,6 @@ export default function ContactPage() {
         </div>
       </section>
     </main>
+    </>
   );
 }

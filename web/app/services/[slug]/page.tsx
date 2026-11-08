@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { InteriorPage } from "@/components/pages/InteriorPage";
 import { JsonLd } from "@/components/JsonLd";
-import { getInteriorPage, getInteriorSlugs, pagePath } from "@/lib/pages";
-import { OG_IMAGE, SITE_URL, serviceSchema } from "@/lib/site";
+import { getInteriorPage, getInteriorSlugs, interiorBreadcrumbItems, pagePath } from "@/lib/pages";
+import { breadcrumbSchema, OG_IMAGE, SITE_URL, serviceSchema } from "@/lib/site";
+
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return getInteriorSlugs("services").map((slug) => ({ slug }));
@@ -28,7 +30,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   if (!page) notFound();
   return (
     <>
-      <JsonLd data={serviceSchema(page.h1, page.description, pagePath(page))} />
+      <JsonLd data={breadcrumbSchema(interiorBreadcrumbItems(page))} />
+      <JsonLd data={serviceSchema(page)} />
       <InteriorPage page={page} />
     </>
   );

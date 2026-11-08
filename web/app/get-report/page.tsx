@@ -28,10 +28,6 @@ function ReportForm() {
         <input type="email" id="lf-email" name="email" autoComplete="email" required placeholder=" " />
       </div>
       <div className="form-field">
-        <label htmlFor="lf-phone">Phone number</label>
-        <input type="tel" id="lf-phone" name="phone" autoComplete="tel" required placeholder=" " />
-      </div>
-      <div className="form-field">
         <label htmlFor="lf-business">Business name</label>
         <input type="text" id="lf-business" name="business" autoComplete="organization" required placeholder=" " />
       </div>

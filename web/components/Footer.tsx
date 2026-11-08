@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { SiteImage } from "@/components/media/SiteImage";
 import { SITE_EMAIL, SITE_PHONE, SITE_PHONE_TEL, SOCIAL } from "@/lib/site";
 
 export function Footer() {
@@ -11,25 +12,41 @@ export function Footer() {
       <div className="container footer-top">
         <div className="footer-brand">
           <Link href="/" className="logo">
-            <img className="logo-img" src="/assets/lmd/logo-footer.png" alt="Live Media Digital" />
+            <SiteImage
+              className="logo-img"
+              src="/assets/lmd/logo-footer.png"
+              alt="Live Media Digital, Miami digital marketing agency"
+              width={220}
+              height={58}
+              style={{ width: "auto" }}
+            />
           </Link>
           <p>SEO, paid media, web development and content, built around real results for businesses of every size.</p>
         </div>
         <div className="footer-col">
           <p className="footer-heading">Company</p>
-          <Link href="/about">About Us</Link>
+          <Link href="/about-us">About Us</Link>
+          <Link href="/services">Services</Link>
           <Link href="/case-studies">Case Studies</Link>
           <Link href="/process">Our Process</Link>
-          <Link href="/blogs">Resources</Link>
+          <Link href="/blog">Resources</Link>
+          <a href="/rss.xml">RSS</a>
+          <Link href="/faqs">FAQs</Link>
+          <Link href="/search">Search</Link>
           <Link href="/contact">Contact</Link>
+          <Link href="/consultation">Free Consultation</Link>
         </div>
         <div className="footer-col">
           <p className="footer-heading">Legal</p>
           <Link href="/privacy-policy">Privacy Policy</Link>
           <Link href="/terms-of-service">Terms of Service</Link>
           <Link href="/cookie-policy">Cookie Policy</Link>
+          <Link href="/accessibility">Accessibility</Link>
           <button className="link-btn" type="button" onClick={() => window.dispatchEvent(new Event("lmd:open-cookies"))}>
             Cookie Settings
+          </button>
+          <button className="link-btn" type="button" onClick={() => window.dispatchEvent(new Event("lmd:open-a11y"))}>
+            Accessibility tools
           </button>
         </div>
         <div className="footer-col">

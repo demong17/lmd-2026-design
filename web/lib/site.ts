@@ -1,3 +1,5 @@
+import type { InteriorRecord } from "@/lib/pages";
+
 export const SITE_URL = "https://livemediadigital.com";
 export const SITE_NAME = "Live Media Digital";
 export const SITE_PHONE = "(305) 918-2306";
@@ -11,7 +13,19 @@ export const SITE_ADDRESS = {
   postal: "33122",
   country: "US",
 };
-export const OG_IMAGE = `${SITE_URL}/assets/lmd/testimonials/ultimate-containers-pro.jpg`;
+export const OG_IMAGE_PATH = "/assets/lmd/og-share.jpg";
+export const OG_IMAGE = `${SITE_URL}${OG_IMAGE_PATH}`;
+export const OG_IMAGE_META = {
+  url: OG_IMAGE,
+  width: 1024,
+  height: 537,
+  alt: "Live Media Digital — Miami digital marketing agency",
+} as const;
+export const GMB_URL = "https://maps.app.goo.gl/bJuY2Zo3LEMR97VD7";
+export const SITE_GEO = {
+  latitude: 25.806263,
+  longitude: -80.323761,
+};
 
 export const SOCIAL = {
   instagram: "https://www.instagram.com/livemediafl/",
@@ -19,21 +33,32 @@ export const SOCIAL = {
   linkedin: "https://www.linkedin.com/in/abe-rodriguez-4a4a3276/",
 };
 
+export const SAME_AS = [SOCIAL.instagram, SOCIAL.facebook, SOCIAL.linkedin, GMB_URL] as const;
+
+export const SERVICE_CITIES = [
+  { name: "Doral", path: "/contact" },
+  { name: "Miami", path: "/service-areas/miami" },
+  { name: "Miami Lakes", path: "/service-areas/miami-lakes" },
+  { name: "Hialeah", path: "/service-areas/hialeah" },
+  { name: "Coral Gables", path: "/service-areas/coral-gables" },
+  { name: "Sweetwater", path: "/service-areas/sweetwater" },
+] as const;
+
 export const NAV_LINKS = [
   { href: "/process", label: "Process" },
   { href: "/case-studies", label: "Case Studies" },
-  { href: "/about", label: "About" },
-  { href: "/blogs", label: "Resources" },
+  { href: "/about-us", label: "About" },
+  { href: "/blog", label: "Resources" },
   { href: "/contact", label: "Contact" },
 ] as const;
 
 export const SERVICES = [
-  { slug: "seo", title: "Search Engine Optimization", blurb: "Rank higher and stay there with technical, on-page, and off-page SEO." },
-  { slug: "sem", title: "Search Engine Marketing", blurb: "Paid search on Google & Bing that gets qualified traffic fast." },
-  { slug: "social-media-marketing", title: "Social Media Marketing", blurb: "Paid social campaigns that turn followers into customers." },
+  { slug: "search-engine-optimization", title: "Search Engine Optimization", blurb: "Rank higher and stay there with technical, on-page, and off-page SEO." },
+  { slug: "search-engine-marketing", title: "Search Engine Marketing", blurb: "Paid search on Google & Bing that gets qualified traffic fast." },
+  { slug: "social-media-paid-marketing", title: "Social Media Marketing", blurb: "Paid social campaigns that turn followers into customers." },
   { slug: "web-development", title: "Web Development", blurb: "Fast, mobile-friendly websites engineered to convert." },
-  { slug: "content-marketing", title: "Content Marketing", blurb: "SEO-driven content and landing pages built to rank and sell." },
-  { slug: "email-marketing", title: "Email Marketing", blurb: "Targeted campaigns that turn leads into repeat revenue." },
+  { slug: "miami-content-marketing", title: "Content Marketing", blurb: "SEO-driven content and landing pages built to rank and sell." },
+  { slug: "email-marketing-agency-in-miami", title: "Email Marketing", blurb: "Targeted campaigns that turn leads into repeat revenue." },
   { slug: "aeo-geo", title: "AEO & GEO", blurb: "Get recommended by ChatGPT, Perplexity, and AI Overviews." },
   { slug: "voice-agents", title: "Voice Agents", blurb: "AI voice agents that answer, book, and qualify leads 24/7." },
   { slug: "ecommerce-development", title: "E-commerce Development", blurb: "Online stores engineered to convert browsers into buyers." },
@@ -79,7 +104,7 @@ export const HOME_FAQS = [
   },
   {
     q: "Do you run Google and Facebook ads?",
-    a: 'Yes, in-house. We manage <a href="/services/sem">Google Ads and Local Services Ads</a> and <a href="/services/social-media-marketing">Meta advertising on Facebook and Instagram</a>, built around your actual service areas and tracked back to real leads, not just clicks.',
+    a: 'Yes, in-house. We manage <a href="/services/search-engine-marketing">Google Ads and Local Services Ads</a> and <a href="/services/social-media-paid-marketing">Meta advertising on Facebook and Instagram</a>, built around your actual service areas and tracked back to real leads, not just clicks.',
     schemaA: "Yes, in-house. We manage Google Ads and Local Services Ads and Meta advertising on Facebook and Instagram, built around your actual service areas and tracked back to real leads, not just clicks.",
   },
   {
@@ -99,13 +124,43 @@ export const HOME_FAQS = [
   },
 ] as const;
 
+function areaServedPlaces() {
+  return [
+    { "@type": "Country", name: "United States" },
+    {
+      "@type": "State",
+      name: "Florida",
+      containedInPlace: { "@type": "Country", name: "United States" },
+    },
+    ...SERVICE_CITIES.map((city) => ({
+      "@type": "City",
+      name: city.name,
+      containedInPlace: { "@type": "State", name: "Florida" },
+    })),
+  ];
+}
+
+function sectionByHeading(page: InteriorRecord, heading: string) {
+  return page.sections.find((section) => section.heading.toLowerCase() === heading.toLowerCase());
+}
+
+function decodePageText(value: string) {
+  return value.replace(/&middot;/gi, "·").replace(/&amp;/gi, "&").replace(/&nbsp;/gi, " ").trim();
+}
+
 export function localBusinessSchema() {
+  const logo = `${SITE_URL}/assets/images/mainLMD-stacked-navy-gold.png`;
   return {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": ["ProfessionalService", "LocalBusiness"],
+    "@id": `${SITE_URL}/#business`,
     name: SITE_NAME,
-    image: `${SITE_URL}/assets/images/mainLMD-stacked-navy-gold.png`,
-    url: `${SITE_URL}/`,
+    alternateName: "LMD",
+    description:
+      "South Florida digital marketing agency serving clients nationwide. SEO, paid search, social, web design, and content built around more leads.",
+    image: logo,
+    logo,
+    url: SITE_URL,
     telephone: SITE_PHONE_E164,
     email: SITE_EMAIL,
     address: {
@@ -116,48 +171,248 @@ export function localBusinessSchema() {
       postalCode: SITE_ADDRESS.postal,
       addressCountry: SITE_ADDRESS.country,
     },
-    areaServed: "Florida",
-    sameAs: [SOCIAL.instagram, SOCIAL.facebook, SOCIAL.linkedin],
-  };
-}
-
-export function faqPageSchema() {
-  return {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: HOME_FAQS.map((item) => ({
-      "@type": "Question",
-      name: item.q,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "schemaA" in item && item.schemaA ? item.schemaA : item.a.replace(/<[^>]+>/g, ""),
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: SITE_GEO.latitude,
+      longitude: SITE_GEO.longitude,
+    },
+    hasMap: GMB_URL,
+    areaServed: areaServedPlaces(),
+    sameAs: [...SAME_AS],
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: SITE_PHONE_E164,
+      email: SITE_EMAIL,
+      contactType: "sales",
+      areaServed: "US",
+      availableLanguage: ["English", "Spanish"],
+    },
+    knowsAbout: SERVICES.map((service) => service.title),
+    makesOffer: SERVICES.map((service) => ({
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        "@id": `${SITE_URL}/services/${service.slug}#service`,
+        name: service.title,
+        description: service.blurb,
+        url: `${SITE_URL}/services/${service.slug}`,
       },
     })),
   };
 }
 
-export function serviceSchema(name: string, description: string, path: string) {
+export function webSiteSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${SITE_URL}/#website`,
+    name: SITE_NAME,
+    url: SITE_URL,
+    publisher: { "@id": `${SITE_URL}/#business` },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${SITE_URL}/search?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+}
+
+export function webPageSchema({
+  name,
+  path,
+  description,
+  type = "WebPage",
+}: {
+  name: string;
+  path: string;
+  description?: string | null;
+  type?: "WebPage" | "AboutPage" | "ContactPage" | "CollectionPage" | "SearchResultsPage";
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": type,
+    name,
+    url: `${SITE_URL}${path}`,
+    description,
+    isPartOf: { "@id": `${SITE_URL}/#website` },
+  };
+}
+
+export function faqPageSchema(
+  items: ReadonlyArray<{ q: string; a: string; schemaA?: string } | { q: string; a: string[] }> = HOME_FAQS,
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "schemaA" in item && item.schemaA
+            ? item.schemaA
+            : Array.isArray(item.a)
+              ? item.a.join(" ")
+              : item.a.replace(/<[^>]+>/g, ""),
+      },
+    })),
+  };
+}
+
+export function serviceSchema(page: InteriorRecord) {
+  const path = `/${page.group}/${page.slug}`;
+  const url = `${SITE_URL}${path}`;
+  const included = sectionByHeading(page, "What's included");
+  const pairs = sectionByHeading(page, "Pairs well with");
+  const audience = sectionByHeading(page, "Who this works best for");
+  const matched = SERVICES.find((service) => service.slug === page.slug);
+
   return {
     "@context": "https://schema.org",
     "@type": "Service",
-    serviceType: name,
-    name,
-    description,
-    url: `${SITE_URL}${path}`,
-    areaServed: "Florida",
-    provider: {
-      "@type": "LocalBusiness",
-      name: SITE_NAME,
-      telephone: SITE_PHONE_E164,
-      email: SITE_EMAIL,
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: SITE_ADDRESS.street,
-        addressLocality: SITE_ADDRESS.city,
-        addressRegion: SITE_ADDRESS.region,
-        postalCode: SITE_ADDRESS.postal,
-        addressCountry: SITE_ADDRESS.country,
-      },
+    "@id": `${url}#service`,
+    name: page.h1,
+    serviceType: matched?.title ?? decodePageText(page.eyebrow) ?? page.h1,
+    description: page.description,
+    url,
+    provider: { "@id": `${SITE_URL}/#business` },
+    areaServed: areaServedPlaces(),
+    mainEntityOfPage: url,
+    ...(included?.items.length
+      ? {
+          hasOfferCatalog: {
+            "@type": "OfferCatalog",
+            name: included.heading,
+            itemListElement: included.items.map((item, index) => ({
+              "@type": "Offer",
+              position: index + 1,
+              itemOffered: { "@type": "Service", name: item },
+            })),
+          },
+        }
+      : {}),
+    ...(pairs?.cards.length
+      ? {
+          isRelatedTo: pairs.cards.map((card) => ({
+            "@type": "Service",
+            name: card.title,
+            url: `${SITE_URL}${card.href}`,
+            description: card.copy,
+          })),
+        }
+      : {}),
+    ...(audience?.cards.length
+      ? {
+          audience: audience.cards.map((card) => ({
+            "@type": "Audience",
+            audienceType: card.title,
+            description: card.copy,
+          })),
+        }
+      : {}),
+  };
+}
+
+export function caseStudySchema(page: InteriorRecord) {
+  const path = `/${page.group}/${page.slug}`;
+  const url = `${SITE_URL}${path}`;
+  const challenge = sectionByHeading(page, "The challenge")?.paras.join(" ") ?? "";
+  const approach = sectionByHeading(page, "Our approach")?.paras.join(" ") ?? "";
+  const result = sectionByHeading(page, "The result")?.paras.join(" ") ?? "";
+  const servicesUsed = sectionByHeading(page, "Services used in this project")?.cards ?? [];
+  const articleBody = [challenge, approach, result].filter(Boolean).join(" ");
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "CaseStudy",
+    "@id": `${url}#casestudy`,
+    name: page.h1,
+    headline: page.h1,
+    description: page.description,
+    url,
+    inLanguage: "en-US",
+    abstract: page.heroSub ? decodePageText(page.heroSub) : page.description,
+    articleBody: articleBody || page.description,
+    about: {
+      "@type": "Organization",
+      name: page.h1,
+    },
+    author: { "@id": `${SITE_URL}/#business` },
+    publisher: { "@id": `${SITE_URL}/#business` },
+    provider: { "@id": `${SITE_URL}/#business` },
+    isPartOf: { "@id": `${SITE_URL}/#website` },
+    mainEntityOfPage: url,
+    ...(servicesUsed.length
+      ? {
+          mentions: servicesUsed.map((card) => ({
+            "@type": "Service",
+            name: card.title,
+            url: `${SITE_URL}${card.href}`,
+          })),
+          keywords: servicesUsed.map((card) => card.title).join(", "),
+        }
+      : {}),
+  };
+}
+
+export function serviceCollectionSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${SITE_URL}/services#collection`,
+    name: "Digital Marketing Services",
+    url: `${SITE_URL}/services`,
+    description:
+      "SEO, paid search, social, web, content, email, and AI from one Miami in-house team. Every service planned together and tracked to real leads.",
+    isPartOf: { "@id": `${SITE_URL}/#website` },
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: SERVICES.map((service, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        url: `${SITE_URL}/services/${service.slug}`,
+        name: service.title,
+        item: {
+          "@type": "Service",
+          "@id": `${SITE_URL}/services/${service.slug}#service`,
+          name: service.title,
+          description: service.blurb,
+          url: `${SITE_URL}/services/${service.slug}`,
+          provider: { "@id": `${SITE_URL}/#business` },
+        },
+      })),
+    },
+  };
+}
+
+export function caseStudyCollectionSchema(pages: InteriorRecord[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${SITE_URL}/case-studies#collection`,
+    name: "Case Studies",
+    url: `${SITE_URL}/case-studies`,
+    description: "Real businesses and real results from Live Media Digital campaigns across South Florida.",
+    isPartOf: { "@id": `${SITE_URL}/#website` },
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: pages.map((page, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        url: `${SITE_URL}/${page.group}/${page.slug}`,
+        name: page.h1,
+        item: {
+          "@type": "CaseStudy",
+          "@id": `${SITE_URL}/${page.group}/${page.slug}#casestudy`,
+          name: page.h1,
+          description: page.description,
+          url: `${SITE_URL}/${page.group}/${page.slug}`,
+        },
+      })),
     },
   };
 }
@@ -166,11 +421,13 @@ export function breadcrumbSchema(items: { name: string; path: string }[]) {
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    itemListElement: items.map((item, index) => ({
-      "@type": "ListItem",
-      position: index + 1,
-      name: item.name,
-      item: `${SITE_URL}${item.path}`,
-    })),
+    itemListElement: items
+      .filter((item) => item.path && !item.path.includes("#"))
+      .map((item, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: item.name,
+        item: `${SITE_URL}${item.path === "/" ? "/" : item.path}`,
+      })),
   };
 }

@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { InteriorPage } from "@/components/pages/InteriorPage";
 import { JsonLd } from "@/components/JsonLd";
-import { getInteriorPage, getInteriorSlugs, pagePath } from "@/lib/pages";
-import { breadcrumbSchema, OG_IMAGE, SITE_URL } from "@/lib/site";
+import { getInteriorPage, getInteriorSlugs, interiorBreadcrumbItems, pagePath } from "@/lib/pages";
+import { breadcrumbSchema, OG_IMAGE, SITE_URL, webPageSchema } from "@/lib/site";
 
 export function generateStaticParams() {
   return getInteriorSlugs("industries").map((slug) => ({ slug }));
@@ -28,11 +28,13 @@ export default async function IndustryPage({ params }: { params: Promise<{ slug:
   if (!page) notFound();
   return (
     <>
+      <JsonLd data={breadcrumbSchema(interiorBreadcrumbItems(page))} />
       <JsonLd
-        data={breadcrumbSchema(
-          page.crumbs.filter((c) => c.href).map((c) => ({ name: c.label, path: c.href }))
-            .concat([{ name: page.h1, path: pagePath(page) }]),
-        )}
+        data={webPageSchema({
+          name: page.h1,
+          path: pagePath(page),
+          description: page.description,
+        })}
       />
       <InteriorPage page={page} />
     </>

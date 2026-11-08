@@ -1,0 +1,467 @@
+[
+  {
+    "source": "/free-consultation",
+    "destination": "/consultation",
+    "permanent": true
+  },
+  {
+    "source": "/miami-content-marketing",
+    "destination": "/services/miami-content-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/landing-page-design-services",
+    "destination": "/services/web-development",
+    "permanent": true
+  },
+  {
+    "source": "/best-digital-marketing-agency-in-miami",
+    "destination": "/service-areas/miami",
+    "permanent": true
+  },
+  {
+    "source": "/google-ads-experts-in-miami",
+    "destination": "/services/search-engine-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/website-design-company",
+    "destination": "/services/web-development",
+    "permanent": true
+  },
+  {
+    "source": "/miami-ppc-agency",
+    "destination": "/services/search-engine-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-by-industry",
+    "destination": "/services",
+    "permanent": true
+  },
+  {
+    "source": "/miami-web-design-agency",
+    "destination": "/services/web-development",
+    "permanent": true
+  },
+  {
+    "source": "/lead-generation-in-miami",
+    "destination": "/services/search-engine-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/seo-consulting-services",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/marketing-for-local-businesses",
+    "destination": "/service-areas/miami",
+    "permanent": true
+  },
+  {
+    "source": "/search-engine-optimization-services",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/web-marketing-services",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/technical-seo-agency",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/miami-web-design-company",
+    "destination": "/services/web-development",
+    "permanent": true
+  },
+  {
+    "source": "/local-seo-services-in-fort-lauderdale",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/online-marketing-services",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-services-for-small-businesses",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/seo-agency-in-miami",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/doral",
+    "destination": "/service-areas/miami",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-services-for-startups",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/orlando-website-design-services",
+    "destination": "/services/web-development",
+    "permanent": true
+  },
+  {
+    "source": "/google-marketing-in-Miami",
+    "destination": "/services/search-engine-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-company-in-miami",
+    "destination": "/service-areas/miami",
+    "permanent": true
+  },
+  {
+    "source": "/miami-seo-services",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/miami-seo-firm",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/seo-company-in-miami",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-for-restaurants",
+    "destination": "/industries/restaurants-hospitality",
+    "permanent": true
+  },
+  {
+    "source": "/real-estate-digital-marketing-services",
+    "destination": "/industries/real-estate",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-for-doctors",
+    "destination": "/industries/medical-wellness",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-for-lawyers",
+    "destination": "/industries/law-firms",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-for-construction",
+    "destination": "/industries/home-services",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-for-plumbers",
+    "destination": "/industries/home-services",
+    "permanent": true
+  },
+  {
+    "source": "/fort-lauderdale-web-design",
+    "destination": "/services/web-development",
+    "permanent": true
+  },
+  {
+    "source": "/orlando-seo-services",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/email-marketing-agency-in-miami",
+    "destination": "/services/email-marketing-agency-in-miami",
+    "permanent": true
+  },
+  {
+    "source": "/blog/blog",
+    "destination": "/blog",
+    "permanent": true
+  },
+  {
+    "source": "/blogs",
+    "destination": "/blog",
+    "permanent": true
+  },
+  {
+    "source": "/blogs.html",
+    "destination": "/blog",
+    "permanent": true
+  },
+  {
+    "source": "/blog.html",
+    "destination": "/blog",
+    "permanent": true
+  },
+  {
+    "source": "/blog/automate-your-sales-pipeline-fast",
+    "destination": "/blog",
+    "permanent": true
+  },
+  {
+    "source": "/blog/optimize-workflows-for-growth",
+    "destination": "/blog",
+    "permanent": true
+  },
+  {
+    "source": "/blog/why-automation-projects-fail",
+    "destination": "/blog",
+    "permanent": true
+  },
+  {
+    "source": "/about",
+    "destination": "/about-us",
+    "permanent": true
+  },
+  {
+    "source": "/seo",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/sem",
+    "destination": "/services/search-engine-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/social-media-marketing",
+    "destination": "/services/social-media-paid-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/content-marketing",
+    "destination": "/services/miami-content-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/email-marketing",
+    "destination": "/services/email-marketing-agency-in-miami",
+    "permanent": true
+  },
+  {
+    "source": "/services/seo",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/services/sem",
+    "destination": "/services/search-engine-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/services/social-media-marketing",
+    "destination": "/services/social-media-paid-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/services/content-marketing",
+    "destination": "/services/miami-content-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/services/email-marketing",
+    "destination": "/services/email-marketing-agency-in-miami",
+    "permanent": true
+  },
+  {
+    "source": "/search-engine-optimization",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/search-engine-marketing",
+    "destination": "/services/search-engine-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/social-media-paid-marketing",
+    "destination": "/services/social-media-paid-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/hvac-digital-marketing-services",
+    "destination": "/industries/hvac-plumbing",
+    "permanent": true
+  },
+  {
+    "source": "/ai-digital-marketing-agency-in-miami",
+    "destination": "/services/aeo-geo",
+    "permanent": true
+  },
+  {
+    "source": "/ai-seo-services-in-miami",
+    "destination": "/services/aeo-geo",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-for-manufacturers",
+    "destination": "/industries/manufacturing",
+    "permanent": true
+  },
+  {
+    "source": "/automotive-digital-marketing-services",
+    "destination": "/industries/automotive-car-wash",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-for-chiropractors",
+    "destination": "/industries/medical-wellness",
+    "permanent": true
+  },
+  {
+    "source": "/miami",
+    "destination": "/service-areas/miami",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-dentists-miami",
+    "destination": "/industries/dental",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-for-dentists",
+    "destination": "/industries/dental",
+    "permanent": true
+  },
+  {
+    "source": "/lp",
+    "destination": "/services",
+    "permanent": true
+  },
+  {
+    "source": "/lp/attorney",
+    "destination": "/industries/law-firms",
+    "permanent": true
+  },
+  {
+    "source": "/lp/boost",
+    "destination": "/services",
+    "permanent": true
+  },
+  {
+    "source": "/lp/car-dealers",
+    "destination": "/industries/automotive-car-wash",
+    "permanent": true
+  },
+  {
+    "source": "/lp/electrician",
+    "destination": "/industries/home-services",
+    "permanent": true
+  },
+  {
+    "source": "/lp/health-care",
+    "destination": "/industries/medical-wellness",
+    "permanent": true
+  },
+  {
+    "source": "/lp/marine-industry",
+    "destination": "/industries/marine-yacht",
+    "permanent": true
+  },
+  {
+    "source": "/lp/plumbing",
+    "destination": "/industries/hvac-plumbing",
+    "permanent": true
+  },
+  {
+    "source": "/lp/restaurants",
+    "destination": "/industries/restaurants-hospitality",
+    "permanent": true
+  },
+  {
+    "source": "/lp/signup",
+    "destination": "/contact",
+    "permanent": true
+  },
+  {
+    "source": "/testimonials",
+    "destination": "/case-studies",
+    "permanent": true
+  },
+  {
+    "source": "/our-case-studies",
+    "destination": "/case-studies",
+    "permanent": true
+  },
+  {
+    "source": "/portfolio",
+    "destination": "/case-studies",
+    "permanent": true
+  },
+  {
+    "source": "/portfolio/supply-lifestyle",
+    "destination": "/case-studies",
+    "permanent": true
+  },
+  {
+    "source": "/portfolio/sushi-sake",
+    "destination": "/case-studies/sushi-sake-sunset",
+    "permanent": true
+  },
+  {
+    "source": "/projects/mypethospital/services",
+    "destination": "/case-studies",
+    "permanent": true
+  },
+  {
+    "source": "/miami-internet-marketing-company",
+    "destination": "/service-areas/miami",
+    "permanent": true
+  },
+  {
+    "source": "/fort-lauderdale-seo-company",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/fort-lauderdale-seo-company-327917bc",
+    "destination": "/services/search-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/orlando-digital-marketing-services",
+    "destination": "/services",
+    "permanent": true
+  },
+  {
+    "source": "/clinical-research",
+    "destination": "/industries/research-centers",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-clinical-research-miami",
+    "destination": "/industries/research-centers",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-team-structure-for-success",
+    "destination": "/what-makes-up-a-digital-marketing-team-structure-for-success",
+    "permanent": true
+  },
+  {
+    "source": "/newsletter",
+    "destination": "/blog",
+    "permanent": true
+  },
+  {
+    "source": "/thank-you",
+    "destination": "/contact",
+    "permanent": true
+  },
+  {
+    "source": "/fulfillment-policy",
+    "destination": "/terms-of-service",
+    "permanent": true
+  }
+]

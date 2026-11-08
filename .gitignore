@@ -11,3 +11,7 @@ _dev-research/
 
 # Abandoned Next scaffold (the live app is in web/)
 next-app/
+
+# Hostinger / local archives
+*.zip
+web_hostinger*.zip

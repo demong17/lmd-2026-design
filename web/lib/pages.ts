@@ -42,3 +42,10 @@ export function getInteriorSlugs(group: string) {
 export function pagePath(page: InteriorRecord) {
   return `/${page.group}/${page.slug}`;
 }
+
+export function interiorBreadcrumbItems(page: InteriorRecord) {
+  return page.crumbs
+    .filter((crumb) => crumb.href && !crumb.href.includes("#"))
+    .map((crumb) => ({ name: crumb.label, path: crumb.href }))
+    .concat([{ name: page.h1, path: pagePath(page) }]);
+}
